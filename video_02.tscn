@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dw2q5bgyieq7j"]
+
+[ext_resource type="Script" path="res://video_02_script.gd" id="1_ncmbd"]
+
+[node name="Video02" type="Node3D"]
+script = ExtResource("1_ncmbd")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+fov = 30.0

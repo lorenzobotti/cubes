@@ -1,6 +1,65 @@
-[gd_scene load_steps=2 format=3 uid="uid://b777c65ctpnd5"]
+[gd_scene load_steps=3 format=3 uid="uid://b777c65ctpnd5"]
 
 [ext_resource type="Script" path="res://cube_column_script.gd" id="1_udeya"]
 
+[sub_resource type="BoxMesh" id="BoxMesh_jjebh"]
+
 [node name="CubeColumn" type="Node3D"]
 script = ExtResource("1_udeya")
+cubes_num = 8
+
+[node name="DELETEME1345816150" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0522559, 3.6, -1.27753)
+mesh = SubResource("BoxMesh_jjebh")
+
+[node name="DELETEME1573645352" type="Timer" parent="."]
+wait_time = 0.747519
+
+[node name="DELETEME392584649" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.969871, 2.7, -1.45676)
+mesh = SubResource("BoxMesh_jjebh")
+
+[node name="DELETEME2814501341" type="Timer" parent="."]
+wait_time = 1.16093
+
+[node name="DELETEME1549868616" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.300767, 1.8, -0.333723)
+mesh = SubResource("BoxMesh_jjebh")
+
+[node name="DELETEME3562395333" type="Timer" parent="."]
+wait_time = 1.10078
+
+[node name="DELETEME3093832373" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0932533, 0.9, -0.0490944)
+mesh = SubResource("BoxMesh_jjebh")
+
+[node name="DELETEME3031362470" type="Timer" parent="."]
+wait_time = 1.17191
+
+[node name="DELETEME3128866811" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.096979, 0, 0.225016)
+mesh = SubResource("BoxMesh_jjebh")
+
+[node name="DELETEME3286178779" type="Timer" parent="."]
+wait_time = 1.00697
+
+[node name="DELETEME2783190152" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.20853, -0.9, -0.217134)
+mesh = SubResource("BoxMesh_jjebh")
+
+[node name="DELETEME3530881299" type="Timer" parent="."]
+wait_time = 0.612035
+
+[node name="DELETEME1652096458" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.160258, -1.8, -2.5861)
+mesh = SubResource("BoxMesh_jjebh")
+
+[node name="DELETEME4077220654" type="Timer" parent="."]
+wait_time = 0.741997
+
+[node name="DELETEME3405857991" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.859202, -2.7, -0.463005)
+mesh = SubResource("BoxMesh_jjebh")
+
+[node name="DELETEME877808181" type="Timer" parent="."]
+wait_time = 0.897373
