@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2f2ip53a13no"]
+
+[ext_resource type="Script" path="res://random_ticker_script.gd" id="1_bibhw"]
+
+[node name="RandomTicker" type="Node"]
+script = ExtResource("1_bibhw")
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

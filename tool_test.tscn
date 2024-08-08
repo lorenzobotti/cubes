@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmch5avaj4s7h"]
+
+[ext_resource type="Script" path="res://tool_test_script.gd" id="1_ft3x3"]
+
+[node name="ToolTest" type="Node3D"]
+script = ExtResource("1_ft3x3")
+
+[node name="@MeshInstance3D@23659" type="MeshInstance3D" parent="."]

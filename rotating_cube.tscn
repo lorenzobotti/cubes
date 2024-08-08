@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://cx0bcqjgana30"]
+
+[ext_resource type="Script" path="res://rotating_cube_script.gd" id="1_ib7hc"]
+[ext_resource type="PackedScene" uid="uid://c2f2ip53a13no" path="res://random_ticker.tscn" id="2_ubk7l"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_23utf"]
+
+[node name="RotatingCube" type="Node3D"]
+script = ExtResource("1_ib7hc")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_23utf")
+
+[node name="RandomTicker" parent="." instance=ExtResource("2_ubk7l")]
+
+[connection signal="timeout" from="RandomTicker" to="." method="_on_random_ticker_timeout"]
