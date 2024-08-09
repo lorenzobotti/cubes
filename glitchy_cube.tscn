@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://t7lykmp34tqf"]
+
+[ext_resource type="Script" path="res://glitchy_cube_script.gd" id="1_1xkky"]
+
+[node name="GlitchyCube" type="Node3D"]
+script = ExtResource("1_1xkky")
+speed = 100.0
+radius = 1.0
