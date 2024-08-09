@@ -3,7 +3,7 @@ extends Node3D
 var column_scene = preload("res://cube_column.tscn")
 
 @export var linear_speed = 16.0
-@export var rotation_speed = 1
+@export var rotation_speed = 0
 @export var steps = 2.0
 @export var side_dist = 5.0
 
@@ -22,7 +22,7 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	camera.position += Vector3.BACK * linear_speed * delta
-	camera.rotation += Vector3.BACK.rotated(Vector3.RIGHT, PI * rotation_speed) * delta
+	# camera.rotation += Vector3.BACK.rotated(Vector3.RIGHT, PI * rotation_speed) * delta
 
 	while catch_up_step():
 		pass
