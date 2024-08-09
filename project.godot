@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="cubes"
-run/main_scene="res://video_02.tscn"
+run/main_scene="res://video_03.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -20,6 +20,15 @@ config/icon="res://icon.svg"
 ViewporterScript="*res://viewporter_script.gd"
 ToolCleaner="*res://tool_nodes_cleaner_script.gd"
 
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+
 [editor]
 
-movie_writer/movie_file="C:/Users/botti/OneDrive/Documenti/Godot/cubes/export_01.mp4.avi"
+movie_writer/movie_file="/Users/giovanni/Desktop/cubes/export.avi"
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.682353, 0.337255, 0, 1)

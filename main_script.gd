@@ -6,7 +6,7 @@ var rotating_cube_scene = preload('res://rotating_cube.tscn')
 @export var distance: float = 0.3
 
 @export var plane_dist: float = 4.0
-
+ 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
