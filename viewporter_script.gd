@@ -2,6 +2,8 @@ extends Node
 
 var random_ticker_scn = preload('res://random_ticker.tscn')
 
+@export var enabled: bool = false
+
 func _ready():
 	RenderingServer.set_debug_generate_wireframes(true)
 	
@@ -12,6 +14,9 @@ func _ready():
 	random_ticker.start_timer()
 
 func next_viewp():
+	if not enabled:
+		return
+	
 	var vp = get_viewport()
 	vp.debug_draw = (vp.debug_draw + 1 ) % 4
 
