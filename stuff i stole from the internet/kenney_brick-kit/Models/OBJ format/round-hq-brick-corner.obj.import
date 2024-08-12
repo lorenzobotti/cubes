@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://beullw5d7bp3p"
+path="res://.godot/imported/round-hq-brick-corner.obj-53b76732fe0e5bff831eb543276b12bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/round-hq-brick-corner.obj-53b76732fe0e5bff831eb543276b12bb.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_brick-kit/Models/OBJ format/round-hq-brick-corner.obj"
+dest_files=["res://.godot/imported/round-hq-brick-corner.obj-53b76732fe0e5bff831eb543276b12bb.mesh", "res://.godot/imported/round-hq-brick-corner.obj-53b76732fe0e5bff831eb543276b12bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

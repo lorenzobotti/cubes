@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bk3nn5ygwin1v"
+path="res://.godot/imported/none-hq-plate-4x6.obj-e7fa75036fc556ef9123bfd0d6d9d442.mesh"
+
+[deps]
+
+files=["res://.godot/imported/none-hq-plate-4x6.obj-e7fa75036fc556ef9123bfd0d6d9d442.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_brick-kit/Models/OBJ format/none-hq-plate-4x6.obj"
+dest_files=["res://.godot/imported/none-hq-plate-4x6.obj-e7fa75036fc556ef9123bfd0d6d9d442.mesh", "res://.godot/imported/none-hq-plate-4x6.obj-e7fa75036fc556ef9123bfd0d6d9d442.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

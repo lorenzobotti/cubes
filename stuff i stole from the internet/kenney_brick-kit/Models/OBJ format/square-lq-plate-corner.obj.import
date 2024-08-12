@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5gjgvvm86n3c"
+path="res://.godot/imported/square-lq-plate-corner.obj-89de839f3cf55526c0b2b3587c1b98ac.mesh"
+
+[deps]
+
+files=["res://.godot/imported/square-lq-plate-corner.obj-89de839f3cf55526c0b2b3587c1b98ac.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_brick-kit/Models/OBJ format/square-lq-plate-corner.obj"
+dest_files=["res://.godot/imported/square-lq-plate-corner.obj-89de839f3cf55526c0b2b3587c1b98ac.mesh", "res://.godot/imported/square-lq-plate-corner.obj-89de839f3cf55526c0b2b3587c1b98ac.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bc5d11p3dhv5b"
+path="res://.godot/imported/bevel-hq-plate-4x4.obj-207ca4a65804b9a7a90c6eb2648905e6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bevel-hq-plate-4x4.obj-207ca4a65804b9a7a90c6eb2648905e6.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_brick-kit/Models/OBJ format/bevel-hq-plate-4x4.obj"
+dest_files=["res://.godot/imported/bevel-hq-plate-4x4.obj-207ca4a65804b9a7a90c6eb2648905e6.mesh", "res://.godot/imported/bevel-hq-plate-4x4.obj-207ca4a65804b9a7a90c6eb2648905e6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dcelowf2iyj5o"
+path="res://.godot/imported/round-lq-plate-4x6.obj-8bccc9ee34222d099920788e32c0323b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/round-lq-plate-4x6.obj-8bccc9ee34222d099920788e32c0323b.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_brick-kit/Models/OBJ format/round-lq-plate-4x6.obj"
+dest_files=["res://.godot/imported/round-lq-plate-4x6.obj-8bccc9ee34222d099920788e32c0323b.mesh", "res://.godot/imported/round-lq-plate-4x6.obj-8bccc9ee34222d099920788e32c0323b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

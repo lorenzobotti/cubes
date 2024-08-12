@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c22fdt3q5t7e2"
+path="res://.godot/imported/square-lq-brick-slope-corner-inside-inverted-2x2.obj-a90dbf54248c5228143f4b3beaa141ca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/square-lq-brick-slope-corner-inside-inverted-2x2.obj-a90dbf54248c5228143f4b3beaa141ca.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_brick-kit/Models/OBJ format/square-lq-brick-slope-corner-inside-inverted-2x2.obj"
+dest_files=["res://.godot/imported/square-lq-brick-slope-corner-inside-inverted-2x2.obj-a90dbf54248c5228143f4b3beaa141ca.mesh", "res://.godot/imported/square-lq-brick-slope-corner-inside-inverted-2x2.obj-a90dbf54248c5228143f4b3beaa141ca.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

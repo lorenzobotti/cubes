@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cpd0gu47m8gnk"
+path="res://.godot/imported/bevel-lq-plate-4x8.obj-b00f28ebfbb1960e6b0dbca1a5dbefbe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bevel-lq-plate-4x8.obj-b00f28ebfbb1960e6b0dbca1a5dbefbe.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_brick-kit/Models/OBJ format/bevel-lq-plate-4x8.obj"
+dest_files=["res://.godot/imported/bevel-lq-plate-4x8.obj-b00f28ebfbb1960e6b0dbca1a5dbefbe.mesh", "res://.godot/imported/bevel-lq-plate-4x8.obj-b00f28ebfbb1960e6b0dbca1a5dbefbe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

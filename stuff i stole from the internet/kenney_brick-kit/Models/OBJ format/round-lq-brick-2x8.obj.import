@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d03rs3078s2al"
+path="res://.godot/imported/round-lq-brick-2x8.obj-754fdf9205aa4d8c11b4899038b8d78b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/round-lq-brick-2x8.obj-754fdf9205aa4d8c11b4899038b8d78b.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_brick-kit/Models/OBJ format/round-lq-brick-2x8.obj"
+dest_files=["res://.godot/imported/round-lq-brick-2x8.obj-754fdf9205aa4d8c11b4899038b8d78b.mesh", "res://.godot/imported/round-lq-brick-2x8.obj-754fdf9205aa4d8c11b4899038b8d78b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
