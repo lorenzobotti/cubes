@@ -29,6 +29,10 @@ window/size/viewport_height=1920
 
 movie_writer/movie_file="/Users/giovanni/Desktop/cubes/export.avi"
 
+[filesystem]
+
+import/fbx/enabled=false
+
 [rendering]
 
 environment/defaults/default_clear_color=Color(0.682353, 0.337255, 0, 1)

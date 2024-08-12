@@ -2,12 +2,13 @@
 
 [ext_resource type="Script" path="res://glitchy_cube_script.gd" id="1_1xkky"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_8iwcs"]
+[sub_resource type="BoxMesh" id="BoxMesh_xtqcq"]
 
 [node name="GlitchyCube" type="Node3D"]
 script = ExtResource("1_1xkky")
 speed = 100.0
 radius = 1.0
 
-[node name="DELETEME2808794191" type="MeshInstance3D" parent="."]
-mesh = SubResource("BoxMesh_8iwcs")
+[node name="DELETEME3596488868" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.999782, 0.0208585)
+mesh = SubResource("BoxMesh_xtqcq")

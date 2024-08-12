@@ -40,27 +40,27 @@ _data = {
 "camera_roll": SubResource("Animation_g2ea8")
 }
 
-[sub_resource type="BoxMesh" id="BoxMesh_ie6b1"]
+[sub_resource type="BoxMesh" id="BoxMesh_covqr"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_5pl21"]
+[sub_resource type="BoxMesh" id="BoxMesh_f8f3a"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_gml5t"]
+[sub_resource type="BoxMesh" id="BoxMesh_1a77b"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_le7uv"]
+[sub_resource type="BoxMesh" id="BoxMesh_pox1p"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_y481n"]
+[sub_resource type="BoxMesh" id="BoxMesh_6olfk"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_ichjp"]
+[sub_resource type="BoxMesh" id="BoxMesh_80hfv"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_jkw43"]
+[sub_resource type="BoxMesh" id="BoxMesh_oc72t"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_h7a4i"]
+[sub_resource type="BoxMesh" id="BoxMesh_rn3a0"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_o30k4"]
+[sub_resource type="BoxMesh" id="BoxMesh_wnwqu"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_iffr7"]
+[sub_resource type="BoxMesh" id="BoxMesh_x1emi"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_h1jhf"]
+[sub_resource type="BoxMesh" id="BoxMesh_2m5b2"]
 
 [node name="Main" type="Node3D"]
 script = ExtResource("1_f8enr")
@@ -78,2133 +78,2132 @@ autoplay = "camera_roll"
 [node name="CubeColumn" parent="." instance=ExtResource("2_fobnc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.08165e-12, 13.4246)
 
-[node name="DELETEME2036875127" type="MeshInstance3D" parent="CubeColumn"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.402789, 3.6, 0.316877)
-mesh = SubResource("BoxMesh_ie6b1")
+[node name="DELETEME3072418014" type="MeshInstance3D" parent="CubeColumn"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.359395, 3.6, 3.70182)
+mesh = SubResource("BoxMesh_covqr")
 
-[node name="DELETEME2904648337" type="Timer" parent="CubeColumn"]
-wait_time = 0.926115
+[node name="DELETEME221626363" type="Timer" parent="CubeColumn"]
+wait_time = 0.963113
 
-[node name="DELETEME3139561352" type="MeshInstance3D" parent="CubeColumn"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.220438, 2.7, -0.149186)
-mesh = SubResource("BoxMesh_ie6b1")
+[node name="DELETEME389619523" type="MeshInstance3D" parent="CubeColumn"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.502506, 2.7, 1.32001)
+mesh = SubResource("BoxMesh_covqr")
 
-[node name="DELETEME3282371034" type="Timer" parent="CubeColumn"]
-wait_time = 0.906952
+[node name="DELETEME3812549882" type="Timer" parent="CubeColumn"]
+wait_time = 1.1648
 
-[node name="DELETEME272395685" type="MeshInstance3D" parent="CubeColumn"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.265297, 1.8, 0.713063)
-mesh = SubResource("BoxMesh_ie6b1")
+[node name="DELETEME904200808" type="MeshInstance3D" parent="CubeColumn"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0152129, 1.8, 0.0336772)
+mesh = SubResource("BoxMesh_covqr")
 
-[node name="DELETEME2826997063" type="Timer" parent="CubeColumn"]
-wait_time = 0.916742
+[node name="DELETEME1841326138" type="Timer" parent="CubeColumn"]
+wait_time = 0.690576
 
-[node name="DELETEME3925497840" type="MeshInstance3D" parent="CubeColumn"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0209302, 0.9, 0.0697085)
-mesh = SubResource("BoxMesh_ie6b1")
+[node name="DELETEME266794743" type="MeshInstance3D" parent="CubeColumn"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.63976, 0.9, 3.86907)
+mesh = SubResource("BoxMesh_covqr")
 
-[node name="DELETEME3145855848" type="Timer" parent="CubeColumn"]
-wait_time = 0.833832
+[node name="DELETEME3167112683" type="Timer" parent="CubeColumn"]
+wait_time = 1.18298
 
-[node name="DELETEME3625021114" type="MeshInstance3D" parent="CubeColumn"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8222, 0, -0.703477)
-mesh = SubResource("BoxMesh_ie6b1")
+[node name="DELETEME2800168909" type="MeshInstance3D" parent="CubeColumn"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.96844, 0, -2.70174)
+mesh = SubResource("BoxMesh_covqr")
 
-[node name="DELETEME2070219443" type="Timer" parent="CubeColumn"]
-wait_time = 1.16217
+[node name="DELETEME1469599926" type="Timer" parent="CubeColumn"]
+wait_time = 0.730195
 
-[node name="DELETEME2262716182" type="MeshInstance3D" parent="CubeColumn"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0290129, -0.9, 0.0139929)
-mesh = SubResource("BoxMesh_ie6b1")
+[node name="DELETEME95279023" type="MeshInstance3D" parent="CubeColumn"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.03371, -0.9, 1.3226)
+mesh = SubResource("BoxMesh_covqr")
 
-[node name="DELETEME2213840562" type="Timer" parent="CubeColumn"]
-wait_time = 0.866128
+[node name="DELETEME2591163796" type="Timer" parent="CubeColumn"]
+wait_time = 0.983234
 
-[node name="DELETEME236593739" type="MeshInstance3D" parent="CubeColumn"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0716404, -1.8, -0.489154)
-mesh = SubResource("BoxMesh_ie6b1")
+[node name="DELETEME724955853" type="MeshInstance3D" parent="CubeColumn"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.32407, -1.8, -1.50785)
+mesh = SubResource("BoxMesh_covqr")
 
-[node name="DELETEME472621509" type="Timer" parent="CubeColumn"]
-wait_time = 0.960677
+[node name="DELETEME1300035289" type="Timer" parent="CubeColumn"]
+wait_time = 1.17178
 
-[node name="DELETEME4202928394" type="MeshInstance3D" parent="CubeColumn"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0807488, -2.7, -0.0523486)
-mesh = SubResource("BoxMesh_ie6b1")
+[node name="DELETEME2690975722" type="MeshInstance3D" parent="CubeColumn"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.57844, -2.7, 0.865494)
+mesh = SubResource("BoxMesh_covqr")
 
-[node name="DELETEME2409608840" type="Timer" parent="CubeColumn"]
-wait_time = 0.954702
+[node name="DELETEME2826013860" type="Timer" parent="CubeColumn"]
+wait_time = 1.11497
 
 [node name="CubeColumn2" parent="." instance=ExtResource("2_fobnc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 2.08165e-12, 20.4246)
 
-[node name="DELETEME350764613" type="MeshInstance3D" parent="CubeColumn2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.551848, 3.6, -0.592977)
-mesh = SubResource("BoxMesh_5pl21")
+[node name="DELETEME2420519220" type="MeshInstance3D" parent="CubeColumn2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.324125, 3.6, -2.69976)
+mesh = SubResource("BoxMesh_f8f3a")
 
-[node name="DELETEME2925175252" type="Timer" parent="CubeColumn2"]
-wait_time = 0.615601
+[node name="DELETEME651656932" type="Timer" parent="CubeColumn2"]
+wait_time = 0.766524
 
-[node name="DELETEME2558097546" type="MeshInstance3D" parent="CubeColumn2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.53971, 2.7, 2.88421)
-mesh = SubResource("BoxMesh_5pl21")
+[node name="DELETEME3189060746" type="MeshInstance3D" parent="CubeColumn2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.24875, 2.7, 1.40861)
+mesh = SubResource("BoxMesh_f8f3a")
 
-[node name="DELETEME2570098263" type="Timer" parent="CubeColumn2"]
-wait_time = 1.05226
+[node name="DELETEME2819518190" type="Timer" parent="CubeColumn2"]
+wait_time = 0.958409
 
-[node name="DELETEME2568675842" type="MeshInstance3D" parent="CubeColumn2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00229102, 1.8, 0.523797)
-mesh = SubResource("BoxMesh_5pl21")
+[node name="DELETEME1972353479" type="MeshInstance3D" parent="CubeColumn2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9184, 1.8, 1.53164)
+mesh = SubResource("BoxMesh_f8f3a")
 
-[node name="DELETEME618615047" type="Timer" parent="CubeColumn2"]
-wait_time = 1.14533
+[node name="DELETEME2785022090" type="Timer" parent="CubeColumn2"]
+wait_time = 0.76879
 
-[node name="DELETEME1951439366" type="MeshInstance3D" parent="CubeColumn2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.312986, 0.9, 0.00649221)
-mesh = SubResource("BoxMesh_5pl21")
+[node name="DELETEME1069774521" type="MeshInstance3D" parent="CubeColumn2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.01499, 0.9, -1.89778)
+mesh = SubResource("BoxMesh_f8f3a")
 
-[node name="DELETEME2913692986" type="Timer" parent="CubeColumn2"]
-wait_time = 1.02873
+[node name="DELETEME45571567" type="Timer" parent="CubeColumn2"]
+wait_time = 0.760763
 
-[node name="DELETEME1500395666" type="MeshInstance3D" parent="CubeColumn2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.188345, 0, 0.137635)
-mesh = SubResource("BoxMesh_5pl21")
+[node name="DELETEME3489796852" type="MeshInstance3D" parent="CubeColumn2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.01983, 0, -0.616129)
+mesh = SubResource("BoxMesh_f8f3a")
 
-[node name="DELETEME2035647471" type="Timer" parent="CubeColumn2"]
-wait_time = 1.08507
+[node name="DELETEME2704048166" type="Timer" parent="CubeColumn2"]
+wait_time = 0.636575
 
-[node name="DELETEME2045924648" type="MeshInstance3D" parent="CubeColumn2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.12145, -0.9, 0.318816)
-mesh = SubResource("BoxMesh_5pl21")
+[node name="DELETEME3060908832" type="MeshInstance3D" parent="CubeColumn2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.185483, -0.9, -0.0669281)
+mesh = SubResource("BoxMesh_f8f3a")
 
-[node name="DELETEME2541659806" type="Timer" parent="CubeColumn2"]
-wait_time = 1.1702
+[node name="DELETEME2147212207" type="Timer" parent="CubeColumn2"]
+wait_time = 0.681453
 
-[node name="DELETEME3537404445" type="MeshInstance3D" parent="CubeColumn2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.07305, -1.8, -0.150431)
-mesh = SubResource("BoxMesh_5pl21")
+[node name="DELETEME1434937577" type="MeshInstance3D" parent="CubeColumn2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0106188, -1.8, 0.0940112)
+mesh = SubResource("BoxMesh_f8f3a")
 
-[node name="DELETEME2105839380" type="Timer" parent="CubeColumn2"]
-wait_time = 1.14457
+[node name="DELETEME1849505820" type="Timer" parent="CubeColumn2"]
+wait_time = 0.67151
 
-[node name="DELETEME264702479" type="MeshInstance3D" parent="CubeColumn2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.78348, -2.7, 1.41384)
-mesh = SubResource("BoxMesh_5pl21")
+[node name="DELETEME2350217906" type="MeshInstance3D" parent="CubeColumn2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.24589, -2.7, 0.893517)
+mesh = SubResource("BoxMesh_f8f3a")
 
-[node name="DELETEME3306399709" type="Timer" parent="CubeColumn2"]
-wait_time = 1.15582
+[node name="DELETEME531018667" type="Timer" parent="CubeColumn2"]
+wait_time = 0.906183
 
 [node name="CubeColumn3" parent="." instance=ExtResource("2_fobnc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 2.08165e-12, 20.4246)
 
-[node name="DELETEME3399544962" type="MeshInstance3D" parent="CubeColumn3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.105221, 3.6, -0.0922755)
-mesh = SubResource("BoxMesh_gml5t")
+[node name="DELETEME921427580" type="MeshInstance3D" parent="CubeColumn3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.52255, 3.6, -2.90461)
+mesh = SubResource("BoxMesh_1a77b")
 
-[node name="DELETEME893640550" type="Timer" parent="CubeColumn3"]
-wait_time = 0.747293
+[node name="DELETEME2548585230" type="Timer" parent="CubeColumn3"]
+wait_time = 1.00139
 
-[node name="DELETEME3446281019" type="MeshInstance3D" parent="CubeColumn3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87129, 2.7, -1.07827)
-mesh = SubResource("BoxMesh_gml5t")
+[node name="DELETEME2926500564" type="MeshInstance3D" parent="CubeColumn3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1187, 2.7, 1.71306)
+mesh = SubResource("BoxMesh_1a77b")
 
-[node name="DELETEME1916906374" type="Timer" parent="CubeColumn3"]
-wait_time = 0.625838
+[node name="DELETEME1988323027" type="Timer" parent="CubeColumn3"]
+wait_time = 0.900608
 
-[node name="DELETEME3042035154" type="MeshInstance3D" parent="CubeColumn3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.998124, 1.8, -0.230684)
-mesh = SubResource("BoxMesh_gml5t")
+[node name="DELETEME4246550171" type="MeshInstance3D" parent="CubeColumn3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0162005, 1.8, 0.792151)
+mesh = SubResource("BoxMesh_1a77b")
 
-[node name="DELETEME1731709401" type="Timer" parent="CubeColumn3"]
-wait_time = 1.17427
+[node name="DELETEME1093247649" type="Timer" parent="CubeColumn3"]
+wait_time = 0.833609
 
-[node name="DELETEME1089343474" type="MeshInstance3D" parent="CubeColumn3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.539997, 0.9, -2.39024)
-mesh = SubResource("BoxMesh_gml5t")
+[node name="DELETEME3771374958" type="MeshInstance3D" parent="CubeColumn3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.661256, 0.9, -0.517487)
+mesh = SubResource("BoxMesh_1a77b")
 
-[node name="DELETEME3335013936" type="Timer" parent="CubeColumn3"]
-wait_time = 1.03218
+[node name="DELETEME1771645844" type="Timer" parent="CubeColumn3"]
+wait_time = 0.671508
 
-[node name="DELETEME4017100002" type="MeshInstance3D" parent="CubeColumn3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.819634, 0, 0.474659)
-mesh = SubResource("BoxMesh_gml5t")
+[node name="DELETEME1799313930" type="MeshInstance3D" parent="CubeColumn3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0678497, 0, -0.173105)
+mesh = SubResource("BoxMesh_1a77b")
 
-[node name="DELETEME84010337" type="Timer" parent="CubeColumn3"]
-wait_time = 0.715903
+[node name="DELETEME2007924171" type="Timer" parent="CubeColumn3"]
+wait_time = 1.05888
 
-[node name="DELETEME2501624317" type="MeshInstance3D" parent="CubeColumn3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.45863, -0.9, 1.53146)
-mesh = SubResource("BoxMesh_gml5t")
+[node name="DELETEME3275247117" type="MeshInstance3D" parent="CubeColumn3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.36426, -0.9, -1.44926)
+mesh = SubResource("BoxMesh_1a77b")
 
-[node name="DELETEME1513543982" type="Timer" parent="CubeColumn3"]
-wait_time = 1.10694
+[node name="DELETEME384117789" type="Timer" parent="CubeColumn3"]
+wait_time = 0.967271
 
-[node name="DELETEME1098971274" type="MeshInstance3D" parent="CubeColumn3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.297793, -1.8, -0.0198863)
-mesh = SubResource("BoxMesh_gml5t")
+[node name="DELETEME3177567627" type="MeshInstance3D" parent="CubeColumn3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.35059, -1.8, -1.03154)
+mesh = SubResource("BoxMesh_1a77b")
 
-[node name="DELETEME3032312409" type="Timer" parent="CubeColumn3"]
-wait_time = 0.992013
+[node name="DELETEME1545564718" type="Timer" parent="CubeColumn3"]
+wait_time = 1.01978
 
-[node name="DELETEME3697119914" type="MeshInstance3D" parent="CubeColumn3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.09717, -2.7, 2.43683)
-mesh = SubResource("BoxMesh_gml5t")
+[node name="DELETEME2495842429" type="MeshInstance3D" parent="CubeColumn3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.875771, -2.7, 0.192705)
+mesh = SubResource("BoxMesh_1a77b")
 
-[node name="DELETEME1404849640" type="Timer" parent="CubeColumn3"]
-wait_time = 0.75721
+[node name="DELETEME195576547" type="Timer" parent="CubeColumn3"]
+wait_time = 1.12873
 
 [node name="CubeColumn4" parent="." instance=ExtResource("2_fobnc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.2777, 2.08165e-12, 32.2784)
 cubes_num = 18
 max_radius = 3.0
 
-[node name="DELETEME421301200" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.69964, 8.1, -4.35194)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME2090512804" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.39914, 8.1, 3.54005)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME3697051767" type="Timer" parent="CubeColumn4"]
-wait_time = 0.881709
+[node name="DELETEME2113618607" type="Timer" parent="CubeColumn4"]
+wait_time = 0.636203
 
-[node name="DELETEME2516829403" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.30691, 7.2, -6.29785)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME2788964280" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.329665, 7.2, -0.0651305)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME87818627" type="Timer" parent="CubeColumn4"]
-wait_time = 1.17769
+[node name="DELETEME406726307" type="Timer" parent="CubeColumn4"]
+wait_time = 0.753269
 
-[node name="DELETEME3027902173" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.06785, 6.3, -3.52112)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME1641038339" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.26705, 6.3, 5.74201)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME1529588031" type="Timer" parent="CubeColumn4"]
-wait_time = 1.00525
+[node name="DELETEME4109482932" type="Timer" parent="CubeColumn4"]
+wait_time = 0.733007
 
-[node name="DELETEME2740845384" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2141, 5.4, 2.15484)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME2804769222" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.39653, 5.4, -0.807279)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME1310929229" type="Timer" parent="CubeColumn4"]
-wait_time = 0.796538
+[node name="DELETEME2752653529" type="Timer" parent="CubeColumn4"]
+wait_time = 0.722325
 
-[node name="DELETEME2159338117" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.05061, 4.5, 1.30894)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME2878544256" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.38859, 4.5, -2.58308)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME3406567724" type="Timer" parent="CubeColumn4"]
-wait_time = 0.934074
+[node name="DELETEME1324865070" type="Timer" parent="CubeColumn4"]
+wait_time = 0.604294
 
-[node name="DELETEME4060961598" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.11844, 3.6, -7.49437)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME1238238455" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.185013, 3.6, 0.528327)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME1440366404" type="Timer" parent="CubeColumn4"]
-wait_time = 1.01004
+[node name="DELETEME3146399031" type="Timer" parent="CubeColumn4"]
+wait_time = 0.67311
 
-[node name="DELETEME2129685649" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.243918, 2.7, -0.350118)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME469839538" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.45044, 2.7, -2.63601)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME507232816" type="Timer" parent="CubeColumn4"]
-wait_time = 1.11314
+[node name="DELETEME2994114496" type="Timer" parent="CubeColumn4"]
+wait_time = 0.637554
 
-[node name="DELETEME514452728" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.07816, 1.8, -6.21502)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME3101134682" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.87031, 1.8, 0.313824)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME2482213806" type="Timer" parent="CubeColumn4"]
-wait_time = 0.881082
+[node name="DELETEME30612540" type="Timer" parent="CubeColumn4"]
+wait_time = 1.11611
 
-[node name="DELETEME3232228428" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.437058, 0.9, 1.80951)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME3395805740" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.88817, 0.9, 2.82879)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME90071382" type="Timer" parent="CubeColumn4"]
-wait_time = 0.691889
+[node name="DELETEME1472520625" type="Timer" parent="CubeColumn4"]
+wait_time = 0.901793
 
-[node name="DELETEME2742135348" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.20733, 0, -1.41584)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME911546908" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.31288, 0, 0.602282)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME3747419542" type="Timer" parent="CubeColumn4"]
-wait_time = 0.900585
+[node name="DELETEME3411939026" type="Timer" parent="CubeColumn4"]
+wait_time = 0.707785
 
-[node name="DELETEME121214130" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.398554, -0.9, -0.0773288)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME4015832720" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.38679, -0.9, 2.91942)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME1011592189" type="Timer" parent="CubeColumn4"]
-wait_time = 0.641742
+[node name="DELETEME529346297" type="Timer" parent="CubeColumn4"]
+wait_time = 0.778664
 
-[node name="DELETEME3580692914" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.08335, -1.8, -1.90941)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME2919258891" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02965, -1.8, 6.265)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME3092096573" type="Timer" parent="CubeColumn4"]
-wait_time = 1.1802
+[node name="DELETEME4143617256" type="Timer" parent="CubeColumn4"]
+wait_time = 0.650982
 
-[node name="DELETEME3015642626" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87025, -2.7, 0.294764)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME2880546290" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0850716, -2.7, 0.167206)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME1154578561" type="Timer" parent="CubeColumn4"]
-wait_time = 0.682918
+[node name="DELETEME591110517" type="Timer" parent="CubeColumn4"]
+wait_time = 0.691231
 
-[node name="DELETEME3205828126" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.61178, -3.6, -0.0929716)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME1337180093" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.106815, -3.6, 0.0159376)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME2750512966" type="Timer" parent="CubeColumn4"]
-wait_time = 0.799426
+[node name="DELETEME255546" type="Timer" parent="CubeColumn4"]
+wait_time = 0.699414
 
-[node name="DELETEME19298926" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.951183, -4.5, -0.191812)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME776994841" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0884124, -4.5, -0.148824)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME1908959189" type="Timer" parent="CubeColumn4"]
-wait_time = 0.905041
+[node name="DELETEME3255725800" type="Timer" parent="CubeColumn4"]
+wait_time = 0.855149
 
-[node name="DELETEME566850368" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0114943, -5.4, 1.33973)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME1029465079" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.41595, -5.4, 3.10977)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME3172621820" type="Timer" parent="CubeColumn4"]
-wait_time = 0.603609
+[node name="DELETEME3978063061" type="Timer" parent="CubeColumn4"]
+wait_time = 1.04904
 
-[node name="DELETEME1536114985" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0711946, -6.3, 0.0359399)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME2415787168" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.342312, -6.3, 1.58273)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME771047223" type="Timer" parent="CubeColumn4"]
-wait_time = 0.848736
+[node name="DELETEME2954444754" type="Timer" parent="CubeColumn4"]
+wait_time = 1.06535
 
-[node name="DELETEME2827366430" type="MeshInstance3D" parent="CubeColumn4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.05028, -7.2, -1.70735)
-mesh = SubResource("BoxMesh_le7uv")
+[node name="DELETEME2542740041" type="MeshInstance3D" parent="CubeColumn4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.905582, -7.2, 1.1717)
+mesh = SubResource("BoxMesh_pox1p")
 
-[node name="DELETEME721728920" type="Timer" parent="CubeColumn4"]
-wait_time = 0.759816
+[node name="DELETEME431208289" type="Timer" parent="CubeColumn4"]
+wait_time = 0.935344
 
 [node name="CubeColumn6" parent="." instance=ExtResource("2_fobnc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.8612, 2.08165e-12, 32.2784)
 cubes_num = 18
 max_radius = 3.0
 
-[node name="DELETEME1809801622" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.52318, 8.1, -0.255792)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME4206809813" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.83141, 8.1, -0.847398)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME3472061113" type="Timer" parent="CubeColumn6"]
-wait_time = 0.954457
+[node name="DELETEME1344780561" type="Timer" parent="CubeColumn6"]
+wait_time = 1.12146
 
-[node name="DELETEME3690280826" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.360603, 7.2, 1.19319)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME58095710" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.817987, 7.2, -0.243187)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME4001545724" type="Timer" parent="CubeColumn6"]
-wait_time = 0.960286
+[node name="DELETEME705892603" type="Timer" parent="CubeColumn6"]
+wait_time = 0.93794
 
-[node name="DELETEME404096813" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.36218, 6.3, -2.51488)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME3147313830" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.36945, 6.3, 0.634075)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME2397623038" type="Timer" parent="CubeColumn6"]
-wait_time = 0.757384
+[node name="DELETEME4080947890" type="Timer" parent="CubeColumn6"]
+wait_time = 1.00555
 
-[node name="DELETEME1810671450" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.224921, 5.4, 0.0965909)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME468680658" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.817101, 5.4, -0.560473)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME3288167180" type="Timer" parent="CubeColumn6"]
-wait_time = 1.08018
+[node name="DELETEME2743287799" type="Timer" parent="CubeColumn6"]
+wait_time = 0.775558
 
-[node name="DELETEME1949320614" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.68556, 4.5, 2.6828)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME2881856222" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.15043, 4.5, 0.188446)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME582916724" type="Timer" parent="CubeColumn6"]
-wait_time = 0.790345
+[node name="DELETEME271862667" type="Timer" parent="CubeColumn6"]
+wait_time = 1.03555
 
-[node name="DELETEME2951297155" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.22033, 3.6, 3.27125)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME1246408146" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.721751, 3.6, 1.64229)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME12157622" type="Timer" parent="CubeColumn6"]
-wait_time = 0.884754
+[node name="DELETEME1953746362" type="Timer" parent="CubeColumn6"]
+wait_time = 0.621734
 
-[node name="DELETEME1490185626" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.295754, 2.7, 0.662733)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME244004374" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.793575, 2.7, -0.631107)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME3347860304" type="Timer" parent="CubeColumn6"]
-wait_time = 0.850685
+[node name="DELETEME1411615561" type="Timer" parent="CubeColumn6"]
+wait_time = 0.867703
 
-[node name="DELETEME3406130944" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.746618, 1.8, 0.917461)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME1060751154" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.725028, 1.8, -1.09902)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME1981218516" type="Timer" parent="CubeColumn6"]
-wait_time = 1.13877
+[node name="DELETEME3202429147" type="Timer" parent="CubeColumn6"]
+wait_time = 0.604052
 
-[node name="DELETEME3906794001" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0253565, 0.9, -0.0853846)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME1960228667" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.406897, 0.9, -0.296052)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME1043870820" type="Timer" parent="CubeColumn6"]
-wait_time = 1.03838
+[node name="DELETEME2642519931" type="Timer" parent="CubeColumn6"]
+wait_time = 0.654011
 
-[node name="DELETEME1039153342" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.251083, 0, -2.12431)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME3764031269" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.679795, 0, -0.895835)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME3709721244" type="Timer" parent="CubeColumn6"]
-wait_time = 1.19381
+[node name="DELETEME4224229363" type="Timer" parent="CubeColumn6"]
+wait_time = 1.16724
 
-[node name="DELETEME224423269" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.63976, -0.9, -3.4796)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME476484762" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.03566, -0.9, -0.456873)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME2303010299" type="Timer" parent="CubeColumn6"]
-wait_time = 1.17624
+[node name="DELETEME3977197515" type="Timer" parent="CubeColumn6"]
+wait_time = 0.706726
 
-[node name="DELETEME1748188027" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.21983, -1.8, 0.636427)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME1896436066" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.549151, -1.8, 0.644314)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME1837190475" type="Timer" parent="CubeColumn6"]
-wait_time = 0.823833
+[node name="DELETEME3438573372" type="Timer" parent="CubeColumn6"]
+wait_time = 1.10487
 
-[node name="DELETEME2851889126" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.140315, -2.7, 0.213374)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME1625861791" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.04728, -2.7, -1.90533)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME1341988631" type="Timer" parent="CubeColumn6"]
-wait_time = 1.13068
+[node name="DELETEME961755085" type="Timer" parent="CubeColumn6"]
+wait_time = 0.88925
 
-[node name="DELETEME2110448385" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0542638, -3.6, 0.533427)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME3388421622" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.34216, -3.6, -2.95309)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME2555462523" type="Timer" parent="CubeColumn6"]
-wait_time = 0.609243
+[node name="DELETEME3658224038" type="Timer" parent="CubeColumn6"]
+wait_time = 0.817844
 
-[node name="DELETEME489929440" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.218178, -4.5, 0.123388)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME3203941860" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.02555, -4.5, 1.74752)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME2835377549" type="Timer" parent="CubeColumn6"]
-wait_time = 1.17007
+[node name="DELETEME2072674440" type="Timer" parent="CubeColumn6"]
+wait_time = 0.725207
 
-[node name="DELETEME1767595322" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.644022, -5.4, -0.0320508)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME3061458750" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.439104, -5.4, 0.876621)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME1695381948" type="Timer" parent="CubeColumn6"]
-wait_time = 0.729351
+[node name="DELETEME616489180" type="Timer" parent="CubeColumn6"]
+wait_time = 0.911755
 
-[node name="DELETEME2608898875" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.05634, -6.3, -0.462574)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME559363555" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.121397, -6.3, 3.69545)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME2747862750" type="Timer" parent="CubeColumn6"]
-wait_time = 1.02647
+[node name="DELETEME3811970493" type="Timer" parent="CubeColumn6"]
+wait_time = 0.857599
 
-[node name="DELETEME2106761953" type="MeshInstance3D" parent="CubeColumn6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.22642, -7.2, -1.08835)
-mesh = SubResource("BoxMesh_y481n")
+[node name="DELETEME959652504" type="MeshInstance3D" parent="CubeColumn6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.52193, -7.2, -0.422935)
+mesh = SubResource("BoxMesh_6olfk")
 
-[node name="DELETEME2549308269" type="Timer" parent="CubeColumn6"]
-wait_time = 1.11857
+[node name="DELETEME1582582474" type="Timer" parent="CubeColumn6"]
+wait_time = 1.03649
 
 [node name="CubeColumn5" parent="." instance=ExtResource("2_fobnc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.05722, 2.08165e-12, 32.2784)
 cubes_num = 18
 max_radius = 3.0
 
-[node name="DELETEME666285793" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.147384, 8.1, -0.899015)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME3368785201" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.27905, 8.1, 2.21234)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME873479460" type="Timer" parent="CubeColumn5"]
-wait_time = 0.768312
+[node name="DELETEME1125037963" type="Timer" parent="CubeColumn5"]
+wait_time = 1.16242
 
-[node name="DELETEME2746901419" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0558, 7.2, 0.697946)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME3945088058" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.29161, 7.2, 0.139213)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME172857458" type="Timer" parent="CubeColumn5"]
-wait_time = 1.1288
+[node name="DELETEME2243625267" type="Timer" parent="CubeColumn5"]
+wait_time = 0.879714
 
-[node name="DELETEME4006931019" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.19907, 6.3, -3.40148)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME334140346" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6801, 6.3, 1.63421)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME2563634937" type="Timer" parent="CubeColumn5"]
-wait_time = 0.827404
+[node name="DELETEME3843734736" type="Timer" parent="CubeColumn5"]
+wait_time = 1.06999
 
-[node name="DELETEME964712210" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.38638, 5.4, -0.658228)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME169484940" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0799689, 5.4, 0.0678549)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME969225876" type="Timer" parent="CubeColumn5"]
-wait_time = 0.916703
+[node name="DELETEME661741074" type="Timer" parent="CubeColumn5"]
+wait_time = 1.12613
 
-[node name="DELETEME1940344030" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.422071, 4.5, -0.129692)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME2443045122" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.41081, 4.5, 2.76717)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME2746739456" type="Timer" parent="CubeColumn5"]
-wait_time = 1.07634
+[node name="DELETEME2085947839" type="Timer" parent="CubeColumn5"]
+wait_time = 0.856397
 
-[node name="DELETEME3135531442" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56638, 3.6, -2.1989)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME4086747986" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.60552, 3.6, 3.04937)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME4210813945" type="Timer" parent="CubeColumn5"]
-wait_time = 0.967342
+[node name="DELETEME2690514408" type="Timer" parent="CubeColumn5"]
+wait_time = 1.06567
 
-[node name="DELETEME3557818545" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.771977, 2.7, -0.25587)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME2232905430" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44204, 2.7, -1.03927)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME1181582138" type="Timer" parent="CubeColumn5"]
-wait_time = 0.666753
+[node name="DELETEME373617998" type="Timer" parent="CubeColumn5"]
+wait_time = 0.762971
 
-[node name="DELETEME4206092765" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.980083, 1.8, 0.315777)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME816097571" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01415, 1.8, 0.174258)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME4047160866" type="Timer" parent="CubeColumn5"]
-wait_time = 1.16753
+[node name="DELETEME2397775583" type="Timer" parent="CubeColumn5"]
+wait_time = 0.932813
 
-[node name="DELETEME2365888742" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.226629, 0.9, -2.59391)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME2462780171" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.44394, 0.9, -1.48769)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME748830506" type="Timer" parent="CubeColumn5"]
-wait_time = 1.03452
+[node name="DELETEME4073424254" type="Timer" parent="CubeColumn5"]
+wait_time = 0.783448
 
-[node name="DELETEME4079436977" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0869002, 0, 1.34826)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME3667093054" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.716369, 0, -0.762662)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME913701714" type="Timer" parent="CubeColumn5"]
-wait_time = 1.04889
+[node name="DELETEME358149247" type="Timer" parent="CubeColumn5"]
+wait_time = 1.12663
 
-[node name="DELETEME2808102852" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.76861, -0.9, 4.31166)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME797081926" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.59477, -0.9, 1.0428)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME1142036663" type="Timer" parent="CubeColumn5"]
-wait_time = 0.762411
+[node name="DELETEME865656066" type="Timer" parent="CubeColumn5"]
+wait_time = 0.78016
 
-[node name="DELETEME3128192824" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.89697, -1.8, -0.810178)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME3697051935" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.28712, -1.8, 1.44898)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME25187107" type="Timer" parent="CubeColumn5"]
-wait_time = 0.931499
+[node name="DELETEME3364497574" type="Timer" parent="CubeColumn5"]
+wait_time = 1.10309
 
-[node name="DELETEME764300062" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.265419, -2.7, 1.37463)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME3772478050" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.31068, -2.7, 0.342141)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME3262191396" type="Timer" parent="CubeColumn5"]
-wait_time = 0.78225
+[node name="DELETEME1281631636" type="Timer" parent="CubeColumn5"]
+wait_time = 0.676814
 
-[node name="DELETEME143167951" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.721175, -3.6, -0.0975283)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME1342502486" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.28215, -3.6, 0.190264)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME2907121745" type="Timer" parent="CubeColumn5"]
-wait_time = 0.93811
+[node name="DELETEME3140275688" type="Timer" parent="CubeColumn5"]
+wait_time = 0.687165
 
-[node name="DELETEME3825853357" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.442784, -4.5, 0.117631)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME3401496863" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.37802, -4.5, -2.16763)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME324370370" type="Timer" parent="CubeColumn5"]
-wait_time = 1.19892
+[node name="DELETEME1358226035" type="Timer" parent="CubeColumn5"]
+wait_time = 0.69645
 
-[node name="DELETEME3400952361" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.72171, -5.4, -0.325309)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME1675741308" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.75235, -5.4, 1.95403)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME524133552" type="Timer" parent="CubeColumn5"]
-wait_time = 1.19695
+[node name="DELETEME588791460" type="Timer" parent="CubeColumn5"]
+wait_time = 1.13031
 
-[node name="DELETEME2022724475" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.15846, -6.3, 1.91415)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME1015810311" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.146237, -6.3, -0.11006)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME2805389839" type="Timer" parent="CubeColumn5"]
-wait_time = 1.08834
+[node name="DELETEME338382279" type="Timer" parent="CubeColumn5"]
+wait_time = 0.857997
 
-[node name="DELETEME4214379874" type="MeshInstance3D" parent="CubeColumn5"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.61648, -7.2, 0.835606)
-mesh = SubResource("BoxMesh_ichjp")
+[node name="DELETEME1036088098" type="MeshInstance3D" parent="CubeColumn5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.31759, -7.2, 0.319939)
+mesh = SubResource("BoxMesh_80hfv")
 
-[node name="DELETEME1879221939" type="Timer" parent="CubeColumn5"]
-wait_time = 1.08819
+[node name="DELETEME1653929996" type="Timer" parent="CubeColumn5"]
+wait_time = 1.14266
 
 [node name="CubeColumn7" parent="." instance=ExtResource("2_fobnc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3588, 2.08165e-12, 45.5306)
 cubes_num = 30
 max_radius = 4.0
 
-[node name="DELETEME604554127" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.49819, 13.5, -4.8825)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME382067500" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.973906, 13.5, 0.0577008)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME2472069676" type="Timer" parent="CubeColumn7"]
-wait_time = 1.15384
+[node name="DELETEME281675885" type="Timer" parent="CubeColumn7"]
+wait_time = 0.937872
 
-[node name="DELETEME2333212413" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.47944, 12.6, 1.28704)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1867706242" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.99383, 12.6, -5.21311)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME2213031062" type="Timer" parent="CubeColumn7"]
-wait_time = 0.810928
+[node name="DELETEME2585329102" type="Timer" parent="CubeColumn7"]
+wait_time = 0.821935
 
-[node name="DELETEME1350879770" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.975638, 11.7, -4.41832)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME2291396259" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.62996, 11.7, 1.55633)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME2661629492" type="Timer" parent="CubeColumn7"]
-wait_time = 0.832657
+[node name="DELETEME3878031190" type="Timer" parent="CubeColumn7"]
+wait_time = 1.02677
 
-[node name="DELETEME2113004870" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.77547, 10.8, 0.764516)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1380385467" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.263056, 10.8, -0.274055)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME1778227375" type="Timer" parent="CubeColumn7"]
-wait_time = 0.927504
+[node name="DELETEME2001697196" type="Timer" parent="CubeColumn7"]
+wait_time = 1.05586
 
-[node name="DELETEME4220225358" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.42089, 9.9, -0.377701)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME4198739707" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.56668, 9.9, -2.59168)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME3269799436" type="Timer" parent="CubeColumn7"]
-wait_time = 0.738928
+[node name="DELETEME3906689625" type="Timer" parent="CubeColumn7"]
+wait_time = 1.07392
 
-[node name="DELETEME4242646863" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.36366, 9, 0.977941)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME2532463383" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.36296, 9, -5.83773)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME654971356" type="Timer" parent="CubeColumn7"]
-wait_time = 0.731766
+[node name="DELETEME1704529063" type="Timer" parent="CubeColumn7"]
+wait_time = 0.793119
 
-[node name="DELETEME620257933" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.27471, 8.1, 1.61215)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1116369252" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.59396, 8.1, 2.31977)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME2339574146" type="Timer" parent="CubeColumn7"]
-wait_time = 0.802311
+[node name="DELETEME3051963214" type="Timer" parent="CubeColumn7"]
+wait_time = 1.19471
 
-[node name="DELETEME2519773202" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.504579, 7.2, -0.786593)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME2727288327" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.25496, 7.2, 5.54063)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME672349394" type="Timer" parent="CubeColumn7"]
-wait_time = 0.631004
+[node name="DELETEME1280053566" type="Timer" parent="CubeColumn7"]
+wait_time = 1.17636
 
-[node name="DELETEME109195482" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.88746, 6.3, 4.24513)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1880245226" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.04158, 6.3, -0.729664)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME3715944941" type="Timer" parent="CubeColumn7"]
-wait_time = 1.10089
+[node name="DELETEME1490402962" type="Timer" parent="CubeColumn7"]
+wait_time = 0.837312
 
-[node name="DELETEME350343925" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.641839, 5.4, 1.09344)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1021074185" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.62332, 5.4, 0.0183527)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME2193350910" type="Timer" parent="CubeColumn7"]
-wait_time = 0.676324
+[node name="DELETEME352939219" type="Timer" parent="CubeColumn7"]
+wait_time = 0.753584
 
-[node name="DELETEME2650806736" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.98446, 4.5, 11.0371)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME3787472813" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.84178, 4.5, 3.50661)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME2612073839" type="Timer" parent="CubeColumn7"]
-wait_time = 0.94332
+[node name="DELETEME2102338164" type="Timer" parent="CubeColumn7"]
+wait_time = 1.06488
 
-[node name="DELETEME247374827" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.6981, 3.6, 2.53564)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME822232889" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.95418, 3.6, -1.60393)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME1496889441" type="Timer" parent="CubeColumn7"]
-wait_time = 0.903567
+[node name="DELETEME3875405768" type="Timer" parent="CubeColumn7"]
+wait_time = 0.749533
 
-[node name="DELETEME4025857005" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.287851, 2.7, -2.25647)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME2377910924" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.698655, 2.7, 1.89754)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME4221602684" type="Timer" parent="CubeColumn7"]
-wait_time = 1.07937
+[node name="DELETEME2881340313" type="Timer" parent="CubeColumn7"]
+wait_time = 0.601306
 
-[node name="DELETEME2284483806" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.19124, 1.8, -1.45994)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1303908650" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.88884, 1.8, -2.69795)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME3478959418" type="Timer" parent="CubeColumn7"]
-wait_time = 0.702165
+[node name="DELETEME4168302294" type="Timer" parent="CubeColumn7"]
+wait_time = 0.980405
 
-[node name="DELETEME3596020223" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.137016, 0.9, 4.04038)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME3693886077" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.40421, 0.9, 0.338683)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME3871472457" type="Timer" parent="CubeColumn7"]
-wait_time = 0.980711
+[node name="DELETEME269608868" type="Timer" parent="CubeColumn7"]
+wait_time = 1.11472
 
-[node name="DELETEME88095603" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.92146, 0, -0.116993)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME4189997958" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.612863, 0, -0.039316)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME1675206460" type="Timer" parent="CubeColumn7"]
-wait_time = 1.02916
+[node name="DELETEME3663809927" type="Timer" parent="CubeColumn7"]
+wait_time = 0.636524
 
-[node name="DELETEME3465003296" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.90907, -0.9, 0.238606)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1877423179" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.37127, -0.9, 6.27686)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME3321835184" type="Timer" parent="CubeColumn7"]
-wait_time = 0.623828
+[node name="DELETEME3227824925" type="Timer" parent="CubeColumn7"]
+wait_time = 0.813189
 
-[node name="DELETEME3264320916" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.45891, -1.8, -0.899096)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME3504112294" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.97247, -1.8, 11.2563)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME1799477559" type="Timer" parent="CubeColumn7"]
-wait_time = 0.757966
+[node name="DELETEME639291076" type="Timer" parent="CubeColumn7"]
+wait_time = 0.720612
 
-[node name="DELETEME2491098775" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.48626, -2.7, -1.28893)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME883375961" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.893106, -2.7, -8.163)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME734037344" type="Timer" parent="CubeColumn7"]
-wait_time = 0.782974
+[node name="DELETEME2663139696" type="Timer" parent="CubeColumn7"]
+wait_time = 1.15289
 
-[node name="DELETEME1471502130" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4327, -3.6, 0.611258)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME311137831" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.24322, -3.6, 3.13704)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME2618447286" type="Timer" parent="CubeColumn7"]
-wait_time = 0.653343
+[node name="DELETEME3202863159" type="Timer" parent="CubeColumn7"]
+wait_time = 0.899136
 
-[node name="DELETEME3923479336" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.14821, -4.5, 1.62477)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME682236113" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05061, -4.5, 1.88975)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME1566461615" type="Timer" parent="CubeColumn7"]
-wait_time = 0.629869
+[node name="DELETEME3405116232" type="Timer" parent="CubeColumn7"]
+wait_time = 0.701589
 
-[node name="DELETEME2998622406" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.53535, -5.4, -2.5799)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME3754689190" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.577297, -5.4, 0.646113)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME4140251579" type="Timer" parent="CubeColumn7"]
-wait_time = 0.895501
+[node name="DELETEME837251625" type="Timer" parent="CubeColumn7"]
+wait_time = 0.961728
 
-[node name="DELETEME1843289113" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0354964, -6.3, 2.16097)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME4156846632" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.29905, -6.3, -4.1626)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME3360375190" type="Timer" parent="CubeColumn7"]
-wait_time = 1.05549
+[node name="DELETEME778432428" type="Timer" parent="CubeColumn7"]
+wait_time = 0.73398
 
-[node name="DELETEME2885426348" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.25999, -7.2, 7.27473)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1736843955" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0360054, -7.2, -0.166838)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME130789712" type="Timer" parent="CubeColumn7"]
-wait_time = 1.03625
+[node name="DELETEME1836042408" type="Timer" parent="CubeColumn7"]
+wait_time = 0.696073
 
-[node name="DELETEME1220945976" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.21461, -8.1, -1.52946)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1180823599" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.87445, -8.1, 1.25256)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME1875384994" type="Timer" parent="CubeColumn7"]
-wait_time = 1.18544
+[node name="DELETEME2297306763" type="Timer" parent="CubeColumn7"]
+wait_time = 0.629131
 
-[node name="DELETEME4021539083" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.91915, -9, -3.58416)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME2532916031" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.446697, -9, 0.308748)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME4179489222" type="Timer" parent="CubeColumn7"]
-wait_time = 0.789904
+[node name="DELETEME177421626" type="Timer" parent="CubeColumn7"]
+wait_time = 0.672666
 
-[node name="DELETEME2965578763" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.48292, -9.9, -1.02309)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME3442074657" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.838772, -9.9, -0.444162)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME778665856" type="Timer" parent="CubeColumn7"]
-wait_time = 0.674683
+[node name="DELETEME2498737695" type="Timer" parent="CubeColumn7"]
+wait_time = 0.818898
 
-[node name="DELETEME931369565" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.72015, -10.8, 0.262803)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1813936523" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.651693, -10.8, 0.142872)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME964451420" type="Timer" parent="CubeColumn7"]
-wait_time = 0.883912
+[node name="DELETEME1148283651" type="Timer" parent="CubeColumn7"]
+wait_time = 0.892139
 
-[node name="DELETEME2719914737" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.85984, -11.7, -0.0211577)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME1091119162" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0428463, -11.7, 0.168714)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME4261658673" type="Timer" parent="CubeColumn7"]
-wait_time = 0.887212
+[node name="DELETEME1092503130" type="Timer" parent="CubeColumn7"]
+wait_time = 0.835823
 
-[node name="DELETEME890216153" type="MeshInstance3D" parent="CubeColumn7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.32177, -12.6, -1.29362)
-mesh = SubResource("BoxMesh_jkw43")
+[node name="DELETEME3331951220" type="MeshInstance3D" parent="CubeColumn7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.10057, -12.6, 2.39085)
+mesh = SubResource("BoxMesh_oc72t")
 
-[node name="DELETEME2092828166" type="Timer" parent="CubeColumn7"]
-wait_time = 0.864996
+[node name="DELETEME4106784459" type="Timer" parent="CubeColumn7"]
+wait_time = 0.808043
 
 [node name="CubeColumn8" parent="." instance=ExtResource("2_fobnc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.3588, 2.08165e-12, 45.5306)
 cubes_num = 30
 max_radius = 4.0
 
-[node name="DELETEME4264918009" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.424997, 13.5, 0.333395)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME2889980011" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.412067, 13.5, 0.0933588)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME905294329" type="Timer" parent="CubeColumn8"]
-wait_time = 0.798097
+[node name="DELETEME2042377889" type="Timer" parent="CubeColumn8"]
+wait_time = 0.623544
 
-[node name="DELETEME160664724" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.532038, 12.6, 3.66979)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3845278424" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.109946, 12.6, 0.0926186)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME1359866650" type="Timer" parent="CubeColumn8"]
-wait_time = 1.14386
+[node name="DELETEME289384496" type="Timer" parent="CubeColumn8"]
+wait_time = 0.774775
 
-[node name="DELETEME15601525" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.97467, 11.7, 2.39488)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME334627347" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.52871, 11.7, 0.786562)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME4139094091" type="Timer" parent="CubeColumn8"]
-wait_time = 0.709618
+[node name="DELETEME3544633223" type="Timer" parent="CubeColumn8"]
+wait_time = 0.618308
 
-[node name="DELETEME3872358889" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.49921, 10.8, -1.44297)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME1080094090" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.85784, 10.8, 0.397717)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME2070172948" type="Timer" parent="CubeColumn8"]
-wait_time = 1.09628
+[node name="DELETEME1611076086" type="Timer" parent="CubeColumn8"]
+wait_time = 1.1041
 
-[node name="DELETEME3331616159" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.58908, 9.9, -7.55698)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3696751124" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.02422, 9.9, -1.44726)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME3056150717" type="Timer" parent="CubeColumn8"]
-wait_time = 0.952564
+[node name="DELETEME1532352207" type="Timer" parent="CubeColumn8"]
+wait_time = 0.795927
 
-[node name="DELETEME1878986958" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.886486, 9, 0.667933)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME4195911449" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.36387, 9, 3.42639)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME3063417927" type="Timer" parent="CubeColumn8"]
-wait_time = 0.802625
+[node name="DELETEME3381946496" type="Timer" parent="CubeColumn8"]
+wait_time = 0.893381
 
-[node name="DELETEME1603696276" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.27021, 8.1, 0.976676)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3932181263" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.40376, 8.1, -0.763776)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME2355650449" type="Timer" parent="CubeColumn8"]
-wait_time = 0.956048
+[node name="DELETEME969395991" type="Timer" parent="CubeColumn8"]
+wait_time = 1.14481
 
-[node name="DELETEME3099476451" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.894841, 7.2, 0.259556)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3407606484" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.732173, 7.2, 6.32157)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME3130194960" type="Timer" parent="CubeColumn8"]
-wait_time = 0.982878
+[node name="DELETEME1609747672" type="Timer" parent="CubeColumn8"]
+wait_time = 1.012
 
-[node name="DELETEME1490693508" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24366, 6.3, -1.99249)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME2193966494" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143757, 6.3, -0.632732)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME426055686" type="Timer" parent="CubeColumn8"]
-wait_time = 0.712355
+[node name="DELETEME1028905884" type="Timer" parent="CubeColumn8"]
+wait_time = 0.875304
 
-[node name="DELETEME3682374484" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0881437, 5.4, -0.511584)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME1865819982" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.52681, 5.4, -1.56779)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME1175755190" type="Timer" parent="CubeColumn8"]
-wait_time = 0.771648
+[node name="DELETEME3207190987" type="Timer" parent="CubeColumn8"]
+wait_time = 1.00887
 
-[node name="DELETEME1603690606" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6472, 4.5, 0.948185)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3532279230" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.018818, 4.5, -1.12723)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME3676172241" type="Timer" parent="CubeColumn8"]
-wait_time = 0.916118
+[node name="DELETEME1228638809" type="Timer" parent="CubeColumn8"]
+wait_time = 0.758188
 
-[node name="DELETEME487455228" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.296233, 3.6, 0.130637)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3265705792" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.47738, 3.6, 2.7572)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME981700671" type="Timer" parent="CubeColumn8"]
-wait_time = 1.00012
+[node name="DELETEME1629363298" type="Timer" parent="CubeColumn8"]
+wait_time = 0.63256
 
-[node name="DELETEME687858510" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4802, 2.7, -0.0661725)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3180752683" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.42405, 2.7, -5.32653)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME1809892365" type="Timer" parent="CubeColumn8"]
-wait_time = 0.639982
+[node name="DELETEME4023115155" type="Timer" parent="CubeColumn8"]
+wait_time = 1.0197
 
-[node name="DELETEME3776042503" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.49137, 1.8, 1.12356)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME1161566151" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.149695, 1.8, 0.745905)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME1155362912" type="Timer" parent="CubeColumn8"]
-wait_time = 1.09882
+[node name="DELETEME686673898" type="Timer" parent="CubeColumn8"]
+wait_time = 0.700746
 
-[node name="DELETEME1027101384" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.17889, 0.9, -3.85273)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME2843722079" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.52645, 0.9, -8.00124)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME2399947684" type="Timer" parent="CubeColumn8"]
-wait_time = 0.791356
+[node name="DELETEME3299799922" type="Timer" parent="CubeColumn8"]
+wait_time = 1.18267
 
-[node name="DELETEME1752790069" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.37342, 0, -2.3354)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3900558467" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.56073, 0, 5.32037)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME2748745113" type="Timer" parent="CubeColumn8"]
-wait_time = 0.893737
+[node name="DELETEME3428431148" type="Timer" parent="CubeColumn8"]
+wait_time = 0.844043
 
-[node name="DELETEME3957094352" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.23725, -0.9, -2.05176)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3774745121" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.692051, -0.9, 0.125605)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME1124213348" type="Timer" parent="CubeColumn8"]
-wait_time = 1.18148
+[node name="DELETEME2523061442" type="Timer" parent="CubeColumn8"]
+wait_time = 0.928805
 
-[node name="DELETEME1535803568" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.989814, -1.8, 0.248458)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME1285059990" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.85138, -1.8, 0.674787)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME3411073118" type="Timer" parent="CubeColumn8"]
-wait_time = 0.780803
+[node name="DELETEME3442874582" type="Timer" parent="CubeColumn8"]
+wait_time = 0.974902
 
-[node name="DELETEME948209306" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.416456, -2.7, -0.546719)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3343821250" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143213, -2.7, -3.82748)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME4154585320" type="Timer" parent="CubeColumn8"]
-wait_time = 0.982874
+[node name="DELETEME2212512013" type="Timer" parent="CubeColumn8"]
+wait_time = 0.911324
 
-[node name="DELETEME3549964307" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.62943, -3.6, 2.86629)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME2357701526" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00131455, -3.6, 0.000453738)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME2033943508" type="Timer" parent="CubeColumn8"]
-wait_time = 1.13655
+[node name="DELETEME2943860813" type="Timer" parent="CubeColumn8"]
+wait_time = 0.667268
 
-[node name="DELETEME259454301" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.58101, -4.5, 2.03015)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME1271246187" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.29615, -4.5, -0.270834)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME2586621778" type="Timer" parent="CubeColumn8"]
-wait_time = 1.17332
+[node name="DELETEME4096737375" type="Timer" parent="CubeColumn8"]
+wait_time = 0.633528
 
-[node name="DELETEME2288651837" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.668863, -5.4, 0.312951)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME3832197123" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.758887, -5.4, -0.201445)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME1419896601" type="Timer" parent="CubeColumn8"]
-wait_time = 0.666398
+[node name="DELETEME3491490353" type="Timer" parent="CubeColumn8"]
+wait_time = 0.855544
 
-[node name="DELETEME1214336321" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.98776, -6.3, -5.22325)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME2457130119" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0650517, -6.3, -0.020408)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME1140786120" type="Timer" parent="CubeColumn8"]
-wait_time = 0.775131
+[node name="DELETEME4218600499" type="Timer" parent="CubeColumn8"]
+wait_time = 0.61367
 
-[node name="DELETEME3114770723" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.728717, -7.2, -2.43892)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME1503836820" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.13982, -7.2, -1.20711)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME1898714997" type="Timer" parent="CubeColumn8"]
-wait_time = 1.09337
+[node name="DELETEME177369291" type="Timer" parent="CubeColumn8"]
+wait_time = 0.601134
 
-[node name="DELETEME538561945" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.36199, -8.1, -2.79023)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME1260515090" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.20864, -8.1, 6.06864)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME833383882" type="Timer" parent="CubeColumn8"]
-wait_time = 0.938846
+[node name="DELETEME1929482827" type="Timer" parent="CubeColumn8"]
+wait_time = 1.01225
 
-[node name="DELETEME710272910" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.991996, -9, 1.25453)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME2433804720" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.01883, -9, 2.48353)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME654300632" type="Timer" parent="CubeColumn8"]
-wait_time = 0.660816
+[node name="DELETEME2667083852" type="Timer" parent="CubeColumn8"]
+wait_time = 0.688408
 
-[node name="DELETEME507559829" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125303, -9.9, 0.057523)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME895521048" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.66556, -9.9, -0.190994)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME1357965792" type="Timer" parent="CubeColumn8"]
-wait_time = 0.984518
+[node name="DELETEME2039346468" type="Timer" parent="CubeColumn8"]
+wait_time = 0.9082
 
-[node name="DELETEME2156685377" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.696312, -10.8, 0.32802)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME1297513582" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.67702, -10.8, 0.655478)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME2909789025" type="Timer" parent="CubeColumn8"]
-wait_time = 0.956058
+[node name="DELETEME401449537" type="Timer" parent="CubeColumn8"]
+wait_time = 0.906706
 
-[node name="DELETEME1204410670" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.29711, -11.7, 1.17729)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME666274537" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0337964, -11.7, -0.954495)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME237329258" type="Timer" parent="CubeColumn8"]
-wait_time = 0.670872
+[node name="DELETEME2503971949" type="Timer" parent="CubeColumn8"]
+wait_time = 0.752692
 
-[node name="DELETEME4080822438" type="MeshInstance3D" parent="CubeColumn8"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.36324, -12.6, -2.2664)
-mesh = SubResource("BoxMesh_h7a4i")
+[node name="DELETEME1034635209" type="MeshInstance3D" parent="CubeColumn8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.862229, -12.6, -0.918182)
+mesh = SubResource("BoxMesh_rn3a0")
 
-[node name="DELETEME3850993990" type="Timer" parent="CubeColumn8"]
-wait_time = 0.881718
+[node name="DELETEME2051161394" type="Timer" parent="CubeColumn8"]
+wait_time = 1.10323
 
 [node name="CubeColumn9" parent="." instance=ExtResource("2_fobnc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.0238, 2.08165e-12, 45.5306)
 cubes_num = 30
 max_radius = 4.0
 
-[node name="DELETEME3043184225" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22045, 13.5, 0.193873)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME1872805544" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45477, 13.5, -8.62331)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME3687404902" type="Timer" parent="CubeColumn9"]
-wait_time = 0.682968
+[node name="DELETEME315391141" type="Timer" parent="CubeColumn9"]
+wait_time = 0.802423
 
-[node name="DELETEME581329090" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.33796, 12.6, 4.96267)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME269797893" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.58098, 12.6, -0.474624)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME3443713234" type="Timer" parent="CubeColumn9"]
-wait_time = 1.06635
+[node name="DELETEME711642000" type="Timer" parent="CubeColumn9"]
+wait_time = 0.779922
 
-[node name="DELETEME580262374" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.57917, 11.7, 2.71131)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME2429120189" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.724108, 11.7, 1.13946)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME4251549038" type="Timer" parent="CubeColumn9"]
-wait_time = 0.686405
+[node name="DELETEME2257346632" type="Timer" parent="CubeColumn9"]
+wait_time = 1.0112
 
-[node name="DELETEME841772536" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.80179, 10.8, 0.5203)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME515198545" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8864, 10.8, -1.88289)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME3322158029" type="Timer" parent="CubeColumn9"]
-wait_time = 1.08799
+[node name="DELETEME1555049604" type="Timer" parent="CubeColumn9"]
+wait_time = 0.961737
 
-[node name="DELETEME3793821826" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.18516, 9.9, -2.59063)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME3344047352" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.34235, 9.9, 0.584054)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME1050424990" type="Timer" parent="CubeColumn9"]
-wait_time = 0.782428
+[node name="DELETEME1061160062" type="Timer" parent="CubeColumn9"]
+wait_time = 0.747732
 
-[node name="DELETEME4119490732" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.68542, 9, -2.73461)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME459496815" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0859803, 9, 5.2109)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME313265035" type="Timer" parent="CubeColumn9"]
-wait_time = 0.949667
+[node name="DELETEME2469102537" type="Timer" parent="CubeColumn9"]
+wait_time = 0.864439
 
-[node name="DELETEME2006278809" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.15123, 8.1, -0.391312)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME1874751368" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.38371, 8.1, -0.992974)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME3903009369" type="Timer" parent="CubeColumn9"]
-wait_time = 1.0807
+[node name="DELETEME2235115331" type="Timer" parent="CubeColumn9"]
+wait_time = 0.609219
 
-[node name="DELETEME1499266152" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.939941, 7.2, 5.51642)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME741444934" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.52811, 7.2, -1.35094)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME1895785996" type="Timer" parent="CubeColumn9"]
-wait_time = 0.633092
+[node name="DELETEME599343964" type="Timer" parent="CubeColumn9"]
+wait_time = 0.664448
 
-[node name="DELETEME2574409726" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.135811, 6.3, 1.96537)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME193366444" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.88805, 6.3, 1.18795)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME2451534363" type="Timer" parent="CubeColumn9"]
-wait_time = 1.09502
+[node name="DELETEME3821917419" type="Timer" parent="CubeColumn9"]
+wait_time = 0.964308
 
-[node name="DELETEME1117239629" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.68104, 5.4, 4.28437)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME1623581338" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.67176, 5.4, -3.36599)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME2786742776" type="Timer" parent="CubeColumn9"]
-wait_time = 0.853372
+[node name="DELETEME104871663" type="Timer" parent="CubeColumn9"]
+wait_time = 0.775113
 
-[node name="DELETEME4046130343" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.335, 4.5, 1.81639)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME3369328695" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.67223, 4.5, -8.18404)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME15019809" type="Timer" parent="CubeColumn9"]
-wait_time = 1.00547
+[node name="DELETEME1971015594" type="Timer" parent="CubeColumn9"]
+wait_time = 0.882411
 
-[node name="DELETEME1501286089" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7384, 3.6, 4.21414)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME2260639801" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.217048, 3.6, -2.61399)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME3804744016" type="Timer" parent="CubeColumn9"]
-wait_time = 1.10277
+[node name="DELETEME3243689024" type="Timer" parent="CubeColumn9"]
+wait_time = 1.15229
 
-[node name="DELETEME2145560241" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.45757, 2.7, -9.09701)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME273550671" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.30626, 2.7, 9.77997)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME832506144" type="Timer" parent="CubeColumn9"]
-wait_time = 0.758091
+[node name="DELETEME2421498079" type="Timer" parent="CubeColumn9"]
+wait_time = 1.10666
 
-[node name="DELETEME2978700651" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.13916, 1.8, 1.75796)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME767457985" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.80317, 1.8, -1.21077)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME1620068881" type="Timer" parent="CubeColumn9"]
-wait_time = 0.927647
+[node name="DELETEME850620864" type="Timer" parent="CubeColumn9"]
+wait_time = 0.73833
 
-[node name="DELETEME859342095" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.815194, 0.9, 1.56644)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME689070104" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87744, 0.9, 1.24422)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME2942757845" type="Timer" parent="CubeColumn9"]
-wait_time = 0.666889
+[node name="DELETEME297164922" type="Timer" parent="CubeColumn9"]
+wait_time = 0.706448
 
-[node name="DELETEME1755725429" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.26308, 0, -0.725064)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME1835875994" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.390674, 0, -0.237279)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME3095157705" type="Timer" parent="CubeColumn9"]
-wait_time = 0.969318
+[node name="DELETEME3908230447" type="Timer" parent="CubeColumn9"]
+wait_time = 0.753405
 
-[node name="DELETEME2648419587" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.998268, -0.9, -2.74382)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME977710152" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.05153, -0.9, -1.24768)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME3482207720" type="Timer" parent="CubeColumn9"]
-wait_time = 0.723257
+[node name="DELETEME3449351375" type="Timer" parent="CubeColumn9"]
+wait_time = 0.911876
 
-[node name="DELETEME110185429" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.37973, -1.8, 1.40118)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME1428051098" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.722922, -1.8, 0.637336)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME4124925869" type="Timer" parent="CubeColumn9"]
-wait_time = 0.898129
+[node name="DELETEME1423841643" type="Timer" parent="CubeColumn9"]
+wait_time = 1.08005
 
-[node name="DELETEME2059604017" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.797084, -2.7, 0.153352)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME3517207667" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.11117, -2.7, -5.24911)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME1928233520" type="Timer" parent="CubeColumn9"]
-wait_time = 1.12734
+[node name="DELETEME1481373907" type="Timer" parent="CubeColumn9"]
+wait_time = 0.838773
 
-[node name="DELETEME2307407952" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.7389, -3.6, -0.0708557)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME754694312" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.697093, -3.6, -0.109035)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME1262141368" type="Timer" parent="CubeColumn9"]
-wait_time = 0.954173
+[node name="DELETEME4187208838" type="Timer" parent="CubeColumn9"]
+wait_time = 0.624576
 
-[node name="DELETEME3455754757" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.727834, -4.5, 1.06088)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME4253877292" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45688, -4.5, 2.33878)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME519309227" type="Timer" parent="CubeColumn9"]
-wait_time = 0.749861
+[node name="DELETEME3062444189" type="Timer" parent="CubeColumn9"]
+wait_time = 0.638558
 
-[node name="DELETEME3395417438" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.499294, -5.4, 2.04476)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME2029489202" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.96378, -5.4, -6.47636)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME3509450467" type="Timer" parent="CubeColumn9"]
-wait_time = 0.826978
+[node name="DELETEME135250141" type="Timer" parent="CubeColumn9"]
+wait_time = 0.832964
 
-[node name="DELETEME51223730" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.376975, -6.3, 0.357794)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME2226021957" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.12091, -6.3, -2.9803)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME2461103581" type="Timer" parent="CubeColumn9"]
-wait_time = 0.88684
+[node name="DELETEME3182007073" type="Timer" parent="CubeColumn9"]
+wait_time = 1.08329
 
-[node name="DELETEME591914470" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.09883, -7.2, 2.59034)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME280112012" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.506564, -7.2, 0.384124)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME373888511" type="Timer" parent="CubeColumn9"]
-wait_time = 0.648485
+[node name="DELETEME2249478758" type="Timer" parent="CubeColumn9"]
+wait_time = 0.909041
 
-[node name="DELETEME3550546861" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.29722, -8.1, -7.58952)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME119840215" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1395, -8.1, 1.58937)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME3127757236" type="Timer" parent="CubeColumn9"]
-wait_time = 0.733968
+[node name="DELETEME3642814288" type="Timer" parent="CubeColumn9"]
+wait_time = 0.760228
 
-[node name="DELETEME1272011186" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.3654, -9, -1.4541)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME702577110" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.495771, -9, 1.18747)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME562725222" type="Timer" parent="CubeColumn9"]
-wait_time = 1.16972
+[node name="DELETEME353619424" type="Timer" parent="CubeColumn9"]
+wait_time = 0.708871
 
-[node name="DELETEME3187558086" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.13644, -9.9, 1.36584)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME3036049082" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1342, -9.9, 2.71253)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME2769428972" type="Timer" parent="CubeColumn9"]
-wait_time = 1.09399
+[node name="DELETEME821979659" type="Timer" parent="CubeColumn9"]
+wait_time = 0.701082
 
-[node name="DELETEME1599048350" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.131634, -10.8, -2.05967)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME1504370977" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.384697, -10.8, 3.80491)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME3491022783" type="Timer" parent="CubeColumn9"]
-wait_time = 0.912822
+[node name="DELETEME2509792173" type="Timer" parent="CubeColumn9"]
+wait_time = 0.912657
 
-[node name="DELETEME2441994412" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.04153, -11.7, -3.37974)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME2631208021" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1482, -11.7, -0.138379)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME975117139" type="Timer" parent="CubeColumn9"]
-wait_time = 0.868205
+[node name="DELETEME157065604" type="Timer" parent="CubeColumn9"]
+wait_time = 1.15013
 
-[node name="DELETEME3254006817" type="MeshInstance3D" parent="CubeColumn9"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.53461, -12.6, -0.263316)
-mesh = SubResource("BoxMesh_o30k4")
+[node name="DELETEME301409033" type="MeshInstance3D" parent="CubeColumn9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.58231, -12.6, -1.33273)
+mesh = SubResource("BoxMesh_wnwqu")
 
-[node name="DELETEME2566620898" type="Timer" parent="CubeColumn9"]
-wait_time = 0.903309
+[node name="DELETEME4264434583" type="Timer" parent="CubeColumn9"]
+wait_time = 0.872833
 
 [node name="CubeColumn10" parent="." instance=ExtResource("2_fobnc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.0238, 2.08165e-12, 45.5306)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.68082, 2.08165e-12, 45.5306)
 cubes_num = 30
 max_radius = 4.0
 
-[node name="DELETEME936990105" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.72187, 13.5, 1.82807)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME78732762" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.553262, 13.5, -0.0669567)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME1252283738" type="Timer" parent="CubeColumn10"]
-wait_time = 0.690989
+[node name="DELETEME2849822150" type="Timer" parent="CubeColumn10"]
+wait_time = 0.769621
 
-[node name="DELETEME238227945" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.06598, 12.6, -3.30588)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME1931234404" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.148223, 12.6, -0.294439)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME3015637381" type="Timer" parent="CubeColumn10"]
-wait_time = 0.916654
+[node name="DELETEME2761224498" type="Timer" parent="CubeColumn10"]
+wait_time = 1.01026
 
-[node name="DELETEME3922187137" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.03845, 11.7, 1.54258)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME419700509" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.316588, 11.7, 0.463238)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME2479003230" type="Timer" parent="CubeColumn10"]
-wait_time = 1.15917
+[node name="DELETEME3419270227" type="Timer" parent="CubeColumn10"]
+wait_time = 1.05003
 
-[node name="DELETEME3128071401" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.344527, 10.8, 2.13078)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME3276358707" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00500093, 10.8, 0.0120252)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME571256612" type="Timer" parent="CubeColumn10"]
-wait_time = 0.798457
+[node name="DELETEME2562895593" type="Timer" parent="CubeColumn10"]
+wait_time = 0.953746
 
-[node name="DELETEME1627753546" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04868, 9.9, 1.85928)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME332820357" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.461324, 9.9, 0.066247)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME1283608313" type="Timer" parent="CubeColumn10"]
-wait_time = 0.721247
+[node name="DELETEME1178889508" type="Timer" parent="CubeColumn10"]
+wait_time = 0.753403
 
-[node name="DELETEME3816284059" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.97897, 9, -4.97248)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME437457655" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.40251, 9, -1.79606)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME1516489963" type="Timer" parent="CubeColumn10"]
-wait_time = 0.633754
+[node name="DELETEME2762095161" type="Timer" parent="CubeColumn10"]
+wait_time = 1.08759
 
-[node name="DELETEME3502212753" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.97823, 8.1, 1.34347)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME817609346" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.722747, 8.1, -0.0364928)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME2626920959" type="Timer" parent="CubeColumn10"]
-wait_time = 0.631013
+[node name="DELETEME896451203" type="Timer" parent="CubeColumn10"]
+wait_time = 0.734136
 
-[node name="DELETEME3850116097" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.03375, 7.2, 2.61696)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME163488705" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.75854, 7.2, -1.5374)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME2464200411" type="Timer" parent="CubeColumn10"]
-wait_time = 0.652572
+[node name="DELETEME2442914099" type="Timer" parent="CubeColumn10"]
+wait_time = 1.11683
 
-[node name="DELETEME2433385312" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.00437, 6.3, -1.52547)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME814832018" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.53394, 6.3, 0.200481)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME405664188" type="Timer" parent="CubeColumn10"]
-wait_time = 0.95679
+[node name="DELETEME2653073514" type="Timer" parent="CubeColumn10"]
+wait_time = 0.855043
 
-[node name="DELETEME3001146075" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0520536, 5.4, 0.0859094)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME311102077" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.54959, 5.4, -2.96116)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME3790639601" type="Timer" parent="CubeColumn10"]
-wait_time = 0.838787
+[node name="DELETEME985490571" type="Timer" parent="CubeColumn10"]
+wait_time = 0.655329
 
-[node name="DELETEME2948874312" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.283648, 4.5, -0.685044)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME4278211881" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.289992, 4.5, 4.75573)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME2651469088" type="Timer" parent="CubeColumn10"]
-wait_time = 0.608491
+[node name="DELETEME1245439535" type="Timer" parent="CubeColumn10"]
+wait_time = 0.780795
 
-[node name="DELETEME2297374644" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.895614, 3.6, -2.91999)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME2534190641" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.28844, 3.6, 1.58505)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME3067568749" type="Timer" parent="CubeColumn10"]
-wait_time = 1.18109
+[node name="DELETEME2317934805" type="Timer" parent="CubeColumn10"]
+wait_time = 1.06426
 
-[node name="DELETEME2684382713" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.40297, 2.7, 2.36939)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME263605295" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.84521, 2.7, 2.20261)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME2336108369" type="Timer" parent="CubeColumn10"]
-wait_time = 0.848602
+[node name="DELETEME2763884778" type="Timer" parent="CubeColumn10"]
+wait_time = 0.825852
 
-[node name="DELETEME2303594768" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.18287, 1.8, -0.629923)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME2874844290" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.92214, 1.8, 3.54674)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME3795730834" type="Timer" parent="CubeColumn10"]
-wait_time = 1.02379
+[node name="DELETEME3475754871" type="Timer" parent="CubeColumn10"]
+wait_time = 1.13836
 
-[node name="DELETEME3284541293" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.212208, 0.9, -0.370986)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME650323486" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.76248, 0.9, -1.7321)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME994219752" type="Timer" parent="CubeColumn10"]
-wait_time = 0.968306
+[node name="DELETEME3490596855" type="Timer" parent="CubeColumn10"]
+wait_time = 1.16972
 
-[node name="DELETEME1432579909" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.82083, 0, -3.03936)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME3986966067" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.285876, 0, -0.237627)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME97388326" type="Timer" parent="CubeColumn10"]
-wait_time = 0.84672
+[node name="DELETEME3566550253" type="Timer" parent="CubeColumn10"]
+wait_time = 1.11006
 
-[node name="DELETEME2198912937" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.124958, -0.9, -0.153577)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME232318899" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25789, -0.9, 0.752844)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME2820096341" type="Timer" parent="CubeColumn10"]
-wait_time = 0.62116
+[node name="DELETEME2116223061" type="Timer" parent="CubeColumn10"]
+wait_time = 0.615285
 
-[node name="DELETEME2803403518" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0816299, -1.8, -1.34827)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME3761500755" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.22473, -1.8, -1.81923)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME3670734166" type="Timer" parent="CubeColumn10"]
-wait_time = 0.968345
+[node name="DELETEME1257622943" type="Timer" parent="CubeColumn10"]
+wait_time = 1.06813
 
-[node name="DELETEME1872286742" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.860564, -2.7, 11.9132)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME1297674866" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.30908, -2.7, 6.85028)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME1812551787" type="Timer" parent="CubeColumn10"]
-wait_time = 0.703142
+[node name="DELETEME1844732495" type="Timer" parent="CubeColumn10"]
+wait_time = 0.652285
 
-[node name="DELETEME2980619189" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.834577, -3.6, 0.523941)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME1950458961" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.28571, -3.6, -6.13819)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME3555195161" type="Timer" parent="CubeColumn10"]
-wait_time = 1.1677
+[node name="DELETEME1446040749" type="Timer" parent="CubeColumn10"]
+wait_time = 0.91216
 
-[node name="DELETEME3579903758" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7251, -4.5, -4.70471)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME1567448552" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.228646, -4.5, 0.431178)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME3508320788" type="Timer" parent="CubeColumn10"]
-wait_time = 1.17333
+[node name="DELETEME596273302" type="Timer" parent="CubeColumn10"]
+wait_time = 1.05761
 
-[node name="DELETEME2421299869" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.10708, -5.4, -0.943625)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME286854606" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6919, -5.4, 0.454007)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME2537433723" type="Timer" parent="CubeColumn10"]
-wait_time = 1.03083
+[node name="DELETEME3329194976" type="Timer" parent="CubeColumn10"]
+wait_time = 0.69483
 
-[node name="DELETEME3596586666" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.302249, -6.3, -2.62219)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME2278739739" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.243752, -6.3, -0.242553)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME693971960" type="Timer" parent="CubeColumn10"]
-wait_time = 0.76053
+[node name="DELETEME1019812281" type="Timer" parent="CubeColumn10"]
+wait_time = 0.807808
 
-[node name="DELETEME2188149350" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.958939, -7.2, -0.821585)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME2693554830" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75984, -7.2, -2.10392)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME602320149" type="Timer" parent="CubeColumn10"]
-wait_time = 0.983341
+[node name="DELETEME3402167274" type="Timer" parent="CubeColumn10"]
+wait_time = 1.00971
 
-[node name="DELETEME3351197138" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.14774, -8.1, 1.3968)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME3508748846" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.453122, -8.1, 3.79389)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME2960828954" type="Timer" parent="CubeColumn10"]
-wait_time = 0.828561
+[node name="DELETEME1824047715" type="Timer" parent="CubeColumn10"]
+wait_time = 1.13401
 
-[node name="DELETEME3401006837" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.28096, -9, -0.651021)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME698026508" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.44175, -9, -0.12839)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME2529081098" type="Timer" parent="CubeColumn10"]
-wait_time = 0.734629
+[node name="DELETEME3777121714" type="Timer" parent="CubeColumn10"]
+wait_time = 0.856831
 
-[node name="DELETEME1984324624" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.63873, -9.9, -1.12833)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME3653485540" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.23959, -9.9, 3.79025)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME602006509" type="Timer" parent="CubeColumn10"]
-wait_time = 0.669814
+[node name="DELETEME3763774616" type="Timer" parent="CubeColumn10"]
+wait_time = 0.870152
 
-[node name="DELETEME1202755633" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.78957, -10.8, -5.75016)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME999784153" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.930822, -10.8, 10.1313)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME1740039802" type="Timer" parent="CubeColumn10"]
-wait_time = 0.666817
+[node name="DELETEME4004347938" type="Timer" parent="CubeColumn10"]
+wait_time = 0.932589
 
-[node name="DELETEME1210907601" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0597, -11.7, 0.135993)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME1449215785" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.595114, -11.7, -0.129851)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME3937912078" type="Timer" parent="CubeColumn10"]
-wait_time = 0.792894
+[node name="DELETEME3610317107" type="Timer" parent="CubeColumn10"]
+wait_time = 0.761378
 
-[node name="DELETEME1669542551" type="MeshInstance3D" parent="CubeColumn10"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.27652, -12.6, -1.49538)
-mesh = SubResource("BoxMesh_iffr7")
+[node name="DELETEME2135784629" type="MeshInstance3D" parent="CubeColumn10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.50003, -12.6, 5.03338)
+mesh = SubResource("BoxMesh_x1emi")
 
-[node name="DELETEME3826868955" type="Timer" parent="CubeColumn10"]
-wait_time = 0.694259
+[node name="DELETEME3144232438" type="Timer" parent="CubeColumn10"]
+wait_time = 0.773451
 
 [node name="CubeColumn11" parent="." instance=ExtResource("2_fobnc")]
 transform = Transform3D(-4.37114e-08, -1, 3.48787e-16, 1, -4.37114e-08, -3.48787e-16, 3.48787e-16, 3.48787e-16, 1, 0, 0, 62.594)
 cubes_num = 100
 
-[node name="DELETEME3634056360" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.15989, 45, -0.61192)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1824229412" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.51734, 45, 0.583045)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3933926119" type="Timer" parent="CubeColumn11"]
-wait_time = 0.915085
+[node name="DELETEME322236475" type="Timer" parent="CubeColumn11"]
+wait_time = 0.884914
 
-[node name="DELETEME3694433390" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.790117, 44.1, -0.649495)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME693025608" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.716026, 44.1, -3.89096)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3987568626" type="Timer" parent="CubeColumn11"]
-wait_time = 1.09195
+[node name="DELETEME2826539344" type="Timer" parent="CubeColumn11"]
+wait_time = 0.994598
 
-[node name="DELETEME389846764" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.14098, 43.2, -1.19744)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2880293636" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.567558, 43.2, 0.468471)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2709847801" type="Timer" parent="CubeColumn11"]
-wait_time = 0.804043
+[node name="DELETEME2783893044" type="Timer" parent="CubeColumn11"]
+wait_time = 1.09426
 
-[node name="DELETEME2242675748" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.654014, 42.3, 1.65677)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME22330638" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.395105, 42.3, -0.130973)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME516855282" type="Timer" parent="CubeColumn11"]
-wait_time = 1.1207
+[node name="DELETEME320765319" type="Timer" parent="CubeColumn11"]
+wait_time = 0.752494
 
-[node name="DELETEME831929818" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6767, 41.4, 0.136044)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3025598465" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.133697, 41.4, 0.925141)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME670238170" type="Timer" parent="CubeColumn11"]
-wait_time = 1.04158
+[node name="DELETEME3582232689" type="Timer" parent="CubeColumn11"]
+wait_time = 0.98591
 
-[node name="DELETEME2644359910" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45731, 40.5, 0.686313)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4109537946" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.41786, 40.5, 1.22797)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3179495685" type="Timer" parent="CubeColumn11"]
-wait_time = 1.08375
+[node name="DELETEME191411032" type="Timer" parent="CubeColumn11"]
+wait_time = 1.00508
 
-[node name="DELETEME480125766" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.878478, 39.6, -1.44763)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3587010012" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.30909, 39.6, -0.414247)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3471745470" type="Timer" parent="CubeColumn11"]
-wait_time = 0.989742
+[node name="DELETEME1935624895" type="Timer" parent="CubeColumn11"]
+wait_time = 0.754426
 
-[node name="DELETEME2255181880" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.06979, 38.7, -0.697173)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2704302555" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.77448, 38.7, -1.29427)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1744838951" type="Timer" parent="CubeColumn11"]
-wait_time = 0.634382
+[node name="DELETEME3780080827" type="Timer" parent="CubeColumn11"]
+wait_time = 0.830191
 
-[node name="DELETEME3536503043" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.206574, 37.8, -0.0206679)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2083044619" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.07887, 37.8, -2.27564)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2318066954" type="Timer" parent="CubeColumn11"]
-wait_time = 0.857281
+[node name="DELETEME613521915" type="Timer" parent="CubeColumn11"]
+wait_time = 0.942896
 
-[node name="DELETEME1896746236" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16768, 36.9, 1.28335)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4096950875" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.89764, 36.9, -3.49817)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1955905450" type="Timer" parent="CubeColumn11"]
-wait_time = 0.900517
+[node name="DELETEME3307744908" type="Timer" parent="CubeColumn11"]
+wait_time = 1.12348
 
-[node name="DELETEME1671470339" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.637773, 36, 0.779406)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME874839641" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.150268, 36, 0.293729)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1686940284" type="Timer" parent="CubeColumn11"]
-wait_time = 0.839142
+[node name="DELETEME431215806" type="Timer" parent="CubeColumn11"]
+wait_time = 1.02938
 
-[node name="DELETEME2061832903" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.746258, 35.1, 0.0126806)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME914688026" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.64025, 35.1, 1.46711)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3467129542" type="Timer" parent="CubeColumn11"]
-wait_time = 0.603934
+[node name="DELETEME881654086" type="Timer" parent="CubeColumn11"]
+wait_time = 0.630987
 
-[node name="DELETEME3593112233" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.520751, 34.2, -0.525872)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME64759698" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.19405, 34.2, 0.611773)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1610571181" type="Timer" parent="CubeColumn11"]
-wait_time = 1.0473
+[node name="DELETEME2440284597" type="Timer" parent="CubeColumn11"]
+wait_time = 0.62153
 
-[node name="DELETEME3110789378" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.249535, 33.3, 0.182093)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2265989137" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45883, 33.3, -0.00117154)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME610615851" type="Timer" parent="CubeColumn11"]
-wait_time = 0.660564
+[node name="DELETEME2394796595" type="Timer" parent="CubeColumn11"]
+wait_time = 0.905684
 
-[node name="DELETEME220663794" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.140893, 32.4, -0.0458251)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2241923815" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.233972, 32.4, 0.576347)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME833184282" type="Timer" parent="CubeColumn11"]
-wait_time = 1.17247
+[node name="DELETEME3414737557" type="Timer" parent="CubeColumn11"]
 
-[node name="DELETEME283631423" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.71044, 31.5, -0.824335)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2401103998" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.00042, 31.5, 1.62078)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3685749798" type="Timer" parent="CubeColumn11"]
-wait_time = 0.665568
+[node name="DELETEME675361497" type="Timer" parent="CubeColumn11"]
+wait_time = 0.917575
 
-[node name="DELETEME3391966397" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.197608, 30.6, 0.989026)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1679035292" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.39267, 30.6, 0.0678159)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME370249077" type="Timer" parent="CubeColumn11"]
-wait_time = 1.12985
+[node name="DELETEME1210082408" type="Timer" parent="CubeColumn11"]
+wait_time = 0.775609
 
-[node name="DELETEME1848074270" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.105181, 29.7, 0.0473732)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3467520510" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.01909, 29.7, 3.73386)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2418384122" type="Timer" parent="CubeColumn11"]
-wait_time = 0.742951
+[node name="DELETEME1363067523" type="Timer" parent="CubeColumn11"]
+wait_time = 0.954114
 
-[node name="DELETEME4130181793" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.408811, 28.8, 0.327861)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2335394233" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.22943, 28.8, -0.0690358)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1925522266" type="Timer" parent="CubeColumn11"]
-wait_time = 0.632112
+[node name="DELETEME2703229134" type="Timer" parent="CubeColumn11"]
+wait_time = 0.959867
 
-[node name="DELETEME1374114843" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.19032, 27.9, 1.17728)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3355136019" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.823479, 27.9, -1.00253)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2473963577" type="Timer" parent="CubeColumn11"]
-wait_time = 0.684018
+[node name="DELETEME1852450243" type="Timer" parent="CubeColumn11"]
+wait_time = 1.09309
 
-[node name="DELETEME2256127825" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.585705, 27, -0.427539)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1911598927" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.292724, 27, -1.56793)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3562515467" type="Timer" parent="CubeColumn11"]
-wait_time = 1.02566
+[node name="DELETEME1824720523" type="Timer" parent="CubeColumn11"]
+wait_time = 0.709942
 
-[node name="DELETEME1800739358" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.939061, 26.1, -0.6357)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3902885749" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0571748, 26.1, -1.55294)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2971536583" type="Timer" parent="CubeColumn11"]
-wait_time = 0.928541
+[node name="DELETEME1735665269" type="Timer" parent="CubeColumn11"]
+wait_time = 1.1942
 
-[node name="DELETEME321559442" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.838169, 25.2, -0.428148)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3554181943" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.135766, 25.2, 0.768581)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1346067979" type="Timer" parent="CubeColumn11"]
-wait_time = 1.13983
+[node name="DELETEME1590023" type="Timer" parent="CubeColumn11"]
+wait_time = 0.96697
 
-[node name="DELETEME2844653163" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.687565, 24.3, -0.929872)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2701122421" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.27, 24.3, 0.0148371)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1360109294" type="Timer" parent="CubeColumn11"]
-wait_time = 0.82775
+[node name="DELETEME2323786029" type="Timer" parent="CubeColumn11"]
+wait_time = 0.980684
 
-[node name="DELETEME3793911134" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0262913, 23.4, 4.52107)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4258433032" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.560709, 23.4, 1.9968)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME10928471" type="Timer" parent="CubeColumn11"]
-wait_time = 0.664168
+[node name="DELETEME3055142070" type="Timer" parent="CubeColumn11"]
+wait_time = 0.956771
 
-[node name="DELETEME1206120427" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.98589, 22.5, -0.983369)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2409893233" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.07659, 22.5, 3.683)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1527166812" type="Timer" parent="CubeColumn11"]
-wait_time = 0.762096
+[node name="DELETEME253954830" type="Timer" parent="CubeColumn11"]
+wait_time = 0.809739
 
-[node name="DELETEME1334123708" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.72225, 21.6, -1.37371)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2577014098" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.523688, 21.6, 2.89459)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3721193849" type="Timer" parent="CubeColumn11"]
-wait_time = 0.926805
+[node name="DELETEME1262399792" type="Timer" parent="CubeColumn11"]
+wait_time = 1.09155
 
-[node name="DELETEME553423448" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.936377, 20.7, -1.0378)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME907791118" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.954286, 20.7, -1.75437)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME4293060439" type="Timer" parent="CubeColumn11"]
-wait_time = 1.08198
+[node name="DELETEME2038235766" type="Timer" parent="CubeColumn11"]
+wait_time = 0.757248
 
-[node name="DELETEME2892889539" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.631, 19.8, 0.296975)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4206551245" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6913, 19.8, -1.99208)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2649723337" type="Timer" parent="CubeColumn11"]
-wait_time = 0.844899
+[node name="DELETEME1784198066" type="Timer" parent="CubeColumn11"]
+wait_time = 0.991755
 
-[node name="DELETEME1320546270" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0526637, 18.9, 0.00507048)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2862406506" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.59336, 18.9, 2.37696)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME376816591" type="Timer" parent="CubeColumn11"]
-wait_time = 1.11785
+[node name="DELETEME2677685302" type="Timer" parent="CubeColumn11"]
+wait_time = 0.846353
 
-[node name="DELETEME2292341041" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.303887, 18, 0.389295)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2921155397" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.14561, 18, 0.563142)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME726536537" type="Timer" parent="CubeColumn11"]
-wait_time = 0.608386
+[node name="DELETEME3732290438" type="Timer" parent="CubeColumn11"]
+wait_time = 0.902486
 
-[node name="DELETEME3062371298" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.754043, 17.1, -3.25298)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4220915263" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.769262, 17.1, 0.0946909)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME4180859640" type="Timer" parent="CubeColumn11"]
-wait_time = 0.659305
+[node name="DELETEME1312430672" type="Timer" parent="CubeColumn11"]
+wait_time = 1.09155
 
-[node name="DELETEME2864222062" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.299644, 16.2, 1.24119)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2912679495" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.700792, 16.2, 0.858444)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2032550475" type="Timer" parent="CubeColumn11"]
-wait_time = 0.776244
+[node name="DELETEME1525026612" type="Timer" parent="CubeColumn11"]
+wait_time = 0.727298
 
-[node name="DELETEME3905304006" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.272302, 15.3, 1.14263)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3596782191" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.21562, 15.3, -1.15515)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME934274751" type="Timer" parent="CubeColumn11"]
-wait_time = 0.778276
+[node name="DELETEME149006618" type="Timer" parent="CubeColumn11"]
+wait_time = 1.08411
 
-[node name="DELETEME1970586744" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.107561, 14.4, 0.150779)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2151186826" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.18881, 14.4, 0.477031)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME782875876" type="Timer" parent="CubeColumn11"]
-wait_time = 1.04338
+[node name="DELETEME776181995" type="Timer" parent="CubeColumn11"]
+wait_time = 0.787572
 
-[node name="DELETEME3351093644" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.629296, 13.5, -0.63685)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME870423112" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.322347, 13.5, -0.693183)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2000568967" type="Timer" parent="CubeColumn11"]
-wait_time = 0.933156
+[node name="DELETEME965268825" type="Timer" parent="CubeColumn11"]
+wait_time = 1.02174
 
-[node name="DELETEME359430911" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.436141, 12.6, 3.11602)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1884399926" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.43882, 12.6, -1.5808)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3903164256" type="Timer" parent="CubeColumn11"]
-wait_time = 0.861888
+[node name="DELETEME2061967807" type="Timer" parent="CubeColumn11"]
+wait_time = 0.955985
 
-[node name="DELETEME4202649970" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.24255, 11.7, -1.22935)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4042390694" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.36205, 11.7, 1.05917)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME460278450" type="Timer" parent="CubeColumn11"]
-wait_time = 1.03943
+[node name="DELETEME234253149" type="Timer" parent="CubeColumn11"]
+wait_time = 1.08108
 
-[node name="DELETEME507366842" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.80343, 10.8, 3.38309)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME297658788" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.918639, 10.8, -0.393094)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1176536251" type="Timer" parent="CubeColumn11"]
-wait_time = 0.725737
+[node name="DELETEME3211814225" type="Timer" parent="CubeColumn11"]
+wait_time = 0.661897
 
-[node name="DELETEME1306438840" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0665055, 9.9, -0.0560179)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2664345631" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.225901, 9.9, -0.120882)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3458021238" type="Timer" parent="CubeColumn11"]
-wait_time = 0.984934
+[node name="DELETEME2621635814" type="Timer" parent="CubeColumn11"]
+wait_time = 0.917408
 
-[node name="DELETEME4138157785" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0222353, 9, -0.485586)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1721945656" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38971, 9, 0.212908)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3809218152" type="Timer" parent="CubeColumn11"]
-wait_time = 0.788223
+[node name="DELETEME785755309" type="Timer" parent="CubeColumn11"]
+wait_time = 0.865929
 
-[node name="DELETEME2528019002" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.73199, 8.1, -0.5776)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4148190406" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.70196, 8.1, -1.52351)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1146021351" type="Timer" parent="CubeColumn11"]
-wait_time = 0.653997
+[node name="DELETEME3788978446" type="Timer" parent="CubeColumn11"]
+wait_time = 0.807769
 
-[node name="DELETEME909684540" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.251349, 7.2, -0.420827)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME945567392" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.260194, 7.2, 0.671949)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2685729502" type="Timer" parent="CubeColumn11"]
-wait_time = 0.855798
+[node name="DELETEME619865065" type="Timer" parent="CubeColumn11"]
+wait_time = 0.879764
 
-[node name="DELETEME4079651404" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.12753, 6.3, 4.9979)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2300904961" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.22022, 6.3, -3.76194)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME62569844" type="Timer" parent="CubeColumn11"]
-wait_time = 0.613438
+[node name="DELETEME2985481303" type="Timer" parent="CubeColumn11"]
+wait_time = 1.13406
 
-[node name="DELETEME3680114673" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.48767, 5.4, -0.362286)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4268319798" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.56663, 5.4, 1.39996)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3001170876" type="Timer" parent="CubeColumn11"]
-wait_time = 0.710119
+[node name="DELETEME3148713676" type="Timer" parent="CubeColumn11"]
+wait_time = 0.664557
 
-[node name="DELETEME3996711535" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0404801, 4.5, -0.0317829)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4141659007" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.70741, 4.5, -0.722975)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME4033469783" type="Timer" parent="CubeColumn11"]
-wait_time = 0.714976
+[node name="DELETEME613061936" type="Timer" parent="CubeColumn11"]
+wait_time = 0.793655
 
-[node name="DELETEME2280012948" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.59583, 3.6, 1.19737)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2836374424" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.640254, 3.6, 0.128171)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1121117324" type="Timer" parent="CubeColumn11"]
-wait_time = 0.679196
+[node name="DELETEME853484754" type="Timer" parent="CubeColumn11"]
+wait_time = 1.09599
 
-[node name="DELETEME179523973" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.330649, 2.7, 0.535144)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3868495372" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.679032, 2.7, 1.20802)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2744304891" type="Timer" parent="CubeColumn11"]
-wait_time = 1.03145
+[node name="DELETEME1947487300" type="Timer" parent="CubeColumn11"]
+wait_time = 0.896994
 
-[node name="DELETEME1299543307" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.398491, 1.8, 0.309713)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME605970313" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.132894, 1.8, 0.0472591)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1927817764" type="Timer" parent="CubeColumn11"]
-wait_time = 1.1227
+[node name="DELETEME3032317070" type="Timer" parent="CubeColumn11"]
+wait_time = 1.04829
 
-[node name="DELETEME2686229503" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.20437, 0.9, -0.367761)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME657390548" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.167706, 0.9, -0.00587962)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1096993648" type="Timer" parent="CubeColumn11"]
-wait_time = 0.72574
+[node name="DELETEME4200520701" type="Timer" parent="CubeColumn11"]
+wait_time = 0.735714
 
-[node name="DELETEME1401338567" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.34575, 0, 1.35656)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1106870367" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.900193, 0, -1.6563)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME471927826" type="Timer" parent="CubeColumn11"]
-wait_time = 1.04425
+[node name="DELETEME2389970212" type="Timer" parent="CubeColumn11"]
+wait_time = 0.847247
 
-[node name="DELETEME2087423952" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.173101, -0.9, -0.0873589)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2308307712" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.694389, -0.9, 1.07821)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3578223422" type="Timer" parent="CubeColumn11"]
-wait_time = 0.729284
+[node name="DELETEME4002819219" type="Timer" parent="CubeColumn11"]
+wait_time = 0.792682
 
-[node name="DELETEME1469689237" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.620169, -1.8, 0.997353)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1460398323" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.21564, -1.8, 1.06045)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2671486437" type="Timer" parent="CubeColumn11"]
-wait_time = 1.05188
+[node name="DELETEME3476053556" type="Timer" parent="CubeColumn11"]
+wait_time = 1.13256
 
-[node name="DELETEME2527505698" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.455904, -2.7, -0.137962)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3044415769" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.335642, -2.7, 0.40664)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3969853866" type="Timer" parent="CubeColumn11"]
-wait_time = 1.18736
+[node name="DELETEME2948208887" type="Timer" parent="CubeColumn11"]
+wait_time = 1.05202
 
-[node name="DELETEME1801550111" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.89713, -3.6, 0.803942)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3891614633" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.20246, -3.6, -4.65738)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2839266163" type="Timer" parent="CubeColumn11"]
-wait_time = 0.883034
+[node name="DELETEME1630496956" type="Timer" parent="CubeColumn11"]
+wait_time = 1.10226
 
-[node name="DELETEME546346420" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.58611, -4.5, 1.13106)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME60606778" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4554, -4.5, -1.6368)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2671006881" type="Timer" parent="CubeColumn11"]
-wait_time = 0.929472
+[node name="DELETEME60763833" type="Timer" parent="CubeColumn11"]
+wait_time = 0.989502
 
-[node name="DELETEME3392201151" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.620923, -5.4, -1.05687)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1552800123" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0528491, -5.4, -0.0837663)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2823993288" type="Timer" parent="CubeColumn11"]
-wait_time = 0.729103
+[node name="DELETEME3592689229" type="Timer" parent="CubeColumn11"]
+wait_time = 0.663024
 
-[node name="DELETEME2205981754" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.551788, -6.3, -1.26308)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2711003284" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.09975, -6.3, -2.95281)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1981939572" type="Timer" parent="CubeColumn11"]
-wait_time = 0.912023
+[node name="DELETEME1078498981" type="Timer" parent="CubeColumn11"]
+wait_time = 1.15662
 
-[node name="DELETEME1269423789" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.27271, -7.2, -1.67966)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1830689990" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.36521, -7.2, -0.359683)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2978547171" type="Timer" parent="CubeColumn11"]
-wait_time = 0.71972
+[node name="DELETEME2574351029" type="Timer" parent="CubeColumn11"]
+wait_time = 0.665461
 
-[node name="DELETEME1564399194" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.65293, -8.1, 1.73997)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4081024771" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.52911, -8.1, -3.9095)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1617781306" type="Timer" parent="CubeColumn11"]
-wait_time = 0.747687
+[node name="DELETEME3916719792" type="Timer" parent="CubeColumn11"]
+wait_time = 0.849276
 
-[node name="DELETEME3016925058" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.69233, -9, -0.0727358)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2057609839" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.731656, -9, 1.66308)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1756450979" type="Timer" parent="CubeColumn11"]
-wait_time = 0.629003
+[node name="DELETEME1044595261" type="Timer" parent="CubeColumn11"]
+wait_time = 0.782884
 
-[node name="DELETEME3055718744" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.40992, -9.9, 0.459968)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1401093633" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.153521, -9.9, -0.174181)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME4241791749" type="Timer" parent="CubeColumn11"]
-wait_time = 1.03796
+[node name="DELETEME4197225713" type="Timer" parent="CubeColumn11"]
+wait_time = 1.04506
 
-[node name="DELETEME2286704319" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.84203, -10.8, 1.23197)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2937789447" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55075, -10.8, 1.20068)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3018508626" type="Timer" parent="CubeColumn11"]
-wait_time = 0.649364
+[node name="DELETEME3663442481" type="Timer" parent="CubeColumn11"]
+wait_time = 0.882555
 
-[node name="DELETEME1941829969" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.45425, -11.7, 0.0138699)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME418252739" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.298842, -11.7, 0.94523)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME882286440" type="Timer" parent="CubeColumn11"]
-wait_time = 0.765029
+[node name="DELETEME3516669752" type="Timer" parent="CubeColumn11"]
+wait_time = 0.783697
 
-[node name="DELETEME733627424" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.133266, -12.6, 0.240707)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3859758390" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.604432, -12.6, -0.311401)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME35356359" type="Timer" parent="CubeColumn11"]
-wait_time = 0.646937
+[node name="DELETEME3157610594" type="Timer" parent="CubeColumn11"]
+wait_time = 0.607357
 
-[node name="DELETEME1936106463" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.360656, -13.5, 1.79048)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME105993997" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.240348, -13.5, -1.32035)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2636010789" type="Timer" parent="CubeColumn11"]
-wait_time = 0.928539
+[node name="DELETEME3958699642" type="Timer" parent="CubeColumn11"]
+wait_time = 0.950401
 
-[node name="DELETEME3811148412" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0516137, -14.4, -0.0696557)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3709854843" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.882054, -14.4, -0.415893)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3860114135" type="Timer" parent="CubeColumn11"]
-wait_time = 0.697497
+[node name="DELETEME2335809308" type="Timer" parent="CubeColumn11"]
+wait_time = 1.1717
 
-[node name="DELETEME2296940636" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.86675, -15.3, -0.565023)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3132293189" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.273433, -15.3, -0.0745359)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME497186962" type="Timer" parent="CubeColumn11"]
-wait_time = 0.971896
+[node name="DELETEME1468144019" type="Timer" parent="CubeColumn11"]
+wait_time = 0.723913
 
-[node name="DELETEME159764089" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.19703, -16.2, 1.67684)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3438983708" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.901568, -16.2, 0.992706)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3116222331" type="Timer" parent="CubeColumn11"]
-wait_time = 0.978468
+[node name="DELETEME1449254516" type="Timer" parent="CubeColumn11"]
+wait_time = 1.1858
 
-[node name="DELETEME4119286003" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.144764, -17.1, -0.0114646)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME574293902" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.63471, -17.1, -1.19783)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME684997943" type="Timer" parent="CubeColumn11"]
-wait_time = 1.17776
+[node name="DELETEME3919112688" type="Timer" parent="CubeColumn11"]
+wait_time = 0.635637
 
-[node name="DELETEME4269213400" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0441583, -18, -0.185972)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME530379127" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.34321, -18, 3.08894)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2000042433" type="Timer" parent="CubeColumn11"]
-wait_time = 1.16047
+[node name="DELETEME3380493139" type="Timer" parent="CubeColumn11"]
+wait_time = 1.13944
 
-[node name="DELETEME2770267967" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.288765, -18.9, -1.69066)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2131848908" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.959446, -18.9, 0.099218)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1348907173" type="Timer" parent="CubeColumn11"]
-wait_time = 1.07408
+[node name="DELETEME3124015775" type="Timer" parent="CubeColumn11"]
+wait_time = 1.11155
 
-[node name="DELETEME2065189447" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14502, -19.8, 1.00761)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME722658912" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25146, -19.8, 3.92423)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME636650935" type="Timer" parent="CubeColumn11"]
-wait_time = 0.956051
+[node name="DELETEME472211386" type="Timer" parent="CubeColumn11"]
+wait_time = 0.995928
 
-[node name="DELETEME3500509409" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.371909, -20.7, -3.39708)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1298961709" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0704034, -20.7, 1.72132)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3905905177" type="Timer" parent="CubeColumn11"]
-wait_time = 1.08994
+[node name="DELETEME1515849316" type="Timer" parent="CubeColumn11"]
+wait_time = 1.04878
 
-[node name="DELETEME2116371032" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.352686, -21.6, -0.342665)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME361528557" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.543519, -21.6, 3.10853)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1641528517" type="Timer" parent="CubeColumn11"]
-wait_time = 0.645681
+[node name="DELETEME3099778395" type="Timer" parent="CubeColumn11"]
+wait_time = 0.657372
 
-[node name="DELETEME1493121800" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00726274, -22.5, 0.0262349)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2333240177" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.801, -22.5, 1.09319)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME71455317" type="Timer" parent="CubeColumn11"]
-wait_time = 0.784856
+[node name="DELETEME2867497733" type="Timer" parent="CubeColumn11"]
+wait_time = 0.920889
 
-[node name="DELETEME131548763" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.03782, -23.4, 1.69833)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2147143378" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.91535, -23.4, -4.07557)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2878112181" type="Timer" parent="CubeColumn11"]
-wait_time = 1.05742
+[node name="DELETEME188644608" type="Timer" parent="CubeColumn11"]
+wait_time = 1.11022
 
-[node name="DELETEME407648988" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.476487, -24.3, -0.560609)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1225056535" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0801512, -24.3, 0.0834646)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2420277628" type="Timer" parent="CubeColumn11"]
-wait_time = 0.678274
+[node name="DELETEME4048078953" type="Timer" parent="CubeColumn11"]
+wait_time = 1.09059
 
-[node name="DELETEME2535336385" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.704151, -25.2, 3.16456)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2154201833" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.03061, -25.2, 2.35354)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2715024080" type="Timer" parent="CubeColumn11"]
-wait_time = 0.789162
+[node name="DELETEME2687888562" type="Timer" parent="CubeColumn11"]
+wait_time = 0.6822
 
-[node name="DELETEME857314830" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.26178, -26.1, 0.0295552)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME27821041" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.438527, -26.1, -0.340812)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2472227217" type="Timer" parent="CubeColumn11"]
-wait_time = 0.966533
+[node name="DELETEME480266678" type="Timer" parent="CubeColumn11"]
+wait_time = 1.19377
 
-[node name="DELETEME3110969987" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.07062, -27, -1.77978)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1785481962" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.21283, -27, 1.83537)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3320297451" type="Timer" parent="CubeColumn11"]
-wait_time = 1.09357
+[node name="DELETEME2761082634" type="Timer" parent="CubeColumn11"]
+wait_time = 0.611876
 
-[node name="DELETEME3493744168" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.56376, -27.9, 1.91929)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3238419030" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0141798, -27.9, 0.0674331)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME860182753" type="Timer" parent="CubeColumn11"]
-wait_time = 0.930093
+[node name="DELETEME3462269357" type="Timer" parent="CubeColumn11"]
+wait_time = 0.957525
 
-[node name="DELETEME3205644024" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.732871, -28.8, 0.53486)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME570213080" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.88177, -28.8, 0.502238)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3268941808" type="Timer" parent="CubeColumn11"]
-wait_time = 1.11989
+[node name="DELETEME59874300" type="Timer" parent="CubeColumn11"]
+wait_time = 1.13698
 
-[node name="DELETEME181944558" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.16386, -29.7, -1.98523)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3417578693" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.622736, -29.7, 2.90154)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3200188622" type="Timer" parent="CubeColumn11"]
-wait_time = 1.16377
+[node name="DELETEME2387275925" type="Timer" parent="CubeColumn11"]
+wait_time = 1.02306
 
-[node name="DELETEME758909255" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.424356, -30.6, -1.67199)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2293755534" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.881779, -30.6, -0.28736)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME309663971" type="Timer" parent="CubeColumn11"]
-wait_time = 1.00747
+[node name="DELETEME643423493" type="Timer" parent="CubeColumn11"]
+wait_time = 1.07436
 
-[node name="DELETEME1990205724" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.541547, -31.5, -0.971933)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3722729940" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.202799, -31.5, -0.0802448)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2196730422" type="Timer" parent="CubeColumn11"]
-wait_time = 0.965958
+[node name="DELETEME4168034332" type="Timer" parent="CubeColumn11"]
+wait_time = 1.18903
 
-[node name="DELETEME300929852" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.523744, -32.4, -0.755394)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3204924605" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.42843, -32.4, -0.210558)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1343194451" type="Timer" parent="CubeColumn11"]
-wait_time = 1.0096
+[node name="DELETEME1135992685" type="Timer" parent="CubeColumn11"]
+wait_time = 0.919659
 
-[node name="DELETEME3690057770" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.33681, -33.3, -2.19708)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4173420906" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.12376, -33.3, 0.889053)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME248344125" type="Timer" parent="CubeColumn11"]
-wait_time = 0.725998
+[node name="DELETEME1040269318" type="Timer" parent="CubeColumn11"]
+wait_time = 1.13402
 
-[node name="DELETEME1106054141" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.36035, -34.2, 0.103814)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME649237448" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.963719, -34.2, 4.50569)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1526776785" type="Timer" parent="CubeColumn11"]
-wait_time = 0.654532
+[node name="DELETEME563614514" type="Timer" parent="CubeColumn11"]
+wait_time = 0.719478
 
-[node name="DELETEME2148562844" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.384582, -35.1, -0.391726)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3692157303" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.70363, -35.1, -1.46881)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME217689525" type="Timer" parent="CubeColumn11"]
-wait_time = 0.898057
+[node name="DELETEME782351411" type="Timer" parent="CubeColumn11"]
+wait_time = 0.928458
 
-[node name="DELETEME3754447611" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.55188, -36, 0.022262)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2342096326" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.144375, -36, -0.249258)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME739680793" type="Timer" parent="CubeColumn11"]
-wait_time = 1.14845
+[node name="DELETEME2090252277" type="Timer" parent="CubeColumn11"]
+wait_time = 0.737695
 
-[node name="DELETEME2228778064" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.40284, -36.9, -0.300779)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1682413323" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.88988, -36.9, -1.4509)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME4043232043" type="Timer" parent="CubeColumn11"]
-wait_time = 0.840618
+[node name="DELETEME2549149519" type="Timer" parent="CubeColumn11"]
+wait_time = 0.648955
 
-[node name="DELETEME2972412066" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.43668, -37.8, -0.205233)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME4142061521" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.27908, -37.8, 0.638951)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3172737169" type="Timer" parent="CubeColumn11"]
-wait_time = 0.694401
+[node name="DELETEME3925243705" type="Timer" parent="CubeColumn11"]
+wait_time = 0.734967
 
-[node name="DELETEME2169447351" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.70487, -38.7, -0.361342)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1529367636" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.18921, -38.7, -0.855115)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1530093840" type="Timer" parent="CubeColumn11"]
-wait_time = 0.669691
+[node name="DELETEME1263131634" type="Timer" parent="CubeColumn11"]
+wait_time = 0.992318
 
-[node name="DELETEME3882509330" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.160671, -39.6, 0.547434)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2010966620" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00915752, -39.6, 0.114001)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2394639837" type="Timer" parent="CubeColumn11"]
-wait_time = 1.05403
+[node name="DELETEME2466990265" type="Timer" parent="CubeColumn11"]
+wait_time = 1.16443
 
-[node name="DELETEME643072160" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.937751, -40.5, -0.74352)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1035254268" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.65347, -40.5, -0.531331)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1018888385" type="Timer" parent="CubeColumn11"]
-wait_time = 0.798571
+[node name="DELETEME2414696197" type="Timer" parent="CubeColumn11"]
+wait_time = 0.62568
 
-[node name="DELETEME3417437243" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.888431, -41.4, -0.581276)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME2074932647" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0097, -41.4, 1.13918)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME2115918453" type="Timer" parent="CubeColumn11"]
-wait_time = 1.16192
+[node name="DELETEME3481704242" type="Timer" parent="CubeColumn11"]
+wait_time = 0.914481
 
-[node name="DELETEME1926796139" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00876379, -42.3, 4.41205)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME1862937750" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.120048, -42.3, 0.60406)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME3784898668" type="Timer" parent="CubeColumn11"]
-wait_time = 0.718245
+[node name="DELETEME567444165" type="Timer" parent="CubeColumn11"]
+wait_time = 0.701343
 
-[node name="DELETEME3983595312" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.79507, -43.2, 0.743137)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME3726783707" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.949773, -43.2, 1.0062)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME1909981999" type="Timer" parent="CubeColumn11"]
-wait_time = 0.708432
+[node name="DELETEME892939262" type="Timer" parent="CubeColumn11"]
+wait_time = 0.660487
 
-[node name="DELETEME2005451307" type="MeshInstance3D" parent="CubeColumn11"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.83568, -44.1, 1.27666)
-mesh = SubResource("BoxMesh_h1jhf")
+[node name="DELETEME215617382" type="MeshInstance3D" parent="CubeColumn11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.67549, -44.1, 0.2864)
+mesh = SubResource("BoxMesh_2m5b2")
 
-[node name="DELETEME270942204" type="Timer" parent="CubeColumn11"]
-wait_time = 0.699327
+[node name="DELETEME1656741363" type="Timer" parent="CubeColumn11"]
+wait_time = 1.05037

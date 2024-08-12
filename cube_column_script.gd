@@ -6,6 +6,9 @@ extends Node3D
 var rotating_cube_scene = preload('res://rotating_cube.tscn')
 var ticker_scene = preload("res://random_ticker.tscn")
 
+@export var scenes: Array[PackedScene] = [preload('res://cube.tscn')]
+@export var scene_scale: float = 1.0
+
 @export var cubes_num: int = 1
 @export var distance: float = 0.9
 
@@ -17,7 +20,7 @@ var ticker_scene = preload("res://random_ticker.tscn")
 
 
 
-var cubes: Array[MeshInstance3D] = []
+var cubes: Array[Node3D] = []
 var radiuses: Array[float] = []
 
 
@@ -25,9 +28,12 @@ var box_mesh = BoxMesh.new()
 
 func prepare_cubes(position: Vector3):
 	for i in range(cubes_num):
-		var cube = MeshInstance3D.new()
-		cube.mesh = box_mesh
+		var scene = scenes.pick_random()
+		var cube: Node3D = scene.instantiate()
+		# cube.mesh = box_mesh
+		
 		cube.position = position + (Vector3.UP * distance * (cubes_num / 2.0 - i))
+		cube.scale = Vector3(scene_scale, scene_scale, scene_scale)
 		cube.name = rand_name()
 		
 		add_child(cube)
@@ -67,8 +73,9 @@ func rotate_cube(index: int):
 	var rotated_pos = start_pos + (rotated * radius)
 
 	cube.position = rotated_pos
+	cube.rotation = Vector3.RIGHT.rotated(Vector3.UP, randf_range(0, 2*PI))
 	
-	
+
 func rand_name() -> String:
 	return 'DELETEME' + str(randi())
 

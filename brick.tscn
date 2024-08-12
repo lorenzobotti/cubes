@@ -1,0 +1,44 @@
+[gd_scene load_steps=11 format=3 uid="uid://dljelj8wlhmu0"]
+
+[ext_resource type="Script" path="res://brick_script.gd" id="1_l5new"]
+[ext_resource type="PackedScene" uid="uid://dmjf8jg70wsc3" path="res://stuff i stole from the internet/kenney_brick-kit/Models/GLB format/bevel-hq-brick-1x1.glb" id="1_ru8sc"]
+[ext_resource type="PackedScene" uid="uid://dngwst45dewkv" path="res://stuff i stole from the internet/kenney_brick-kit/Models/GLB format/bevel-hq-brick-1x2.glb" id="2_nsrb3"]
+[ext_resource type="PackedScene" uid="uid://c0mu3criy42qj" path="res://stuff i stole from the internet/kenney_brick-kit/Models/GLB format/bevel-hq-brick-1x4.glb" id="3_ync3r"]
+[ext_resource type="PackedScene" uid="uid://btwngrcbhfu0i" path="res://stuff i stole from the internet/kenney_brick-kit/Models/GLB format/bevel-hq-brick-1x6.glb" id="4_2viug"]
+[ext_resource type="PackedScene" uid="uid://66wqmrmu7opf" path="res://stuff i stole from the internet/kenney_brick-kit/Models/GLB format/bevel-hq-brick-1x8.glb" id="5_f5jgv"]
+[ext_resource type="PackedScene" uid="uid://blssktjyi6i1u" path="res://stuff i stole from the internet/kenney_brick-kit/Models/GLB format/bevel-hq-brick-2x2.glb" id="6_qbotr"]
+[ext_resource type="PackedScene" uid="uid://cll47txetoyrq" path="res://stuff i stole from the internet/kenney_brick-kit/Models/GLB format/bevel-hq-brick-2x4.glb" id="7_q7ivf"]
+[ext_resource type="PackedScene" uid="uid://c73veh5s4a8" path="res://stuff i stole from the internet/kenney_brick-kit/Models/GLB format/bevel-hq-brick-2x6.glb" id="8_rb22w"]
+[ext_resource type="PackedScene" uid="uid://04wob1830y0y" path="res://stuff i stole from the internet/kenney_brick-kit/Models/GLB format/bevel-hq-brick-2x8.glb" id="9_7ux0y"]
+
+[node name="Brick" type="Node3D"]
+script = ExtResource("1_l5new")
+x_bricks = 1
+y_bricks = 1
+
+[node name="bevel-hq-brick-1x12" parent="." instance=ExtResource("1_ru8sc")]
+visible = false
+
+[node name="bevel-hq-brick-1x22" parent="." instance=ExtResource("2_nsrb3")]
+visible = false
+
+[node name="bevel-hq-brick-1x42" parent="." instance=ExtResource("3_ync3r")]
+visible = false
+
+[node name="bevel-hq-brick-1x62" parent="." instance=ExtResource("4_2viug")]
+visible = false
+
+[node name="bevel-hq-brick-1x82" parent="." instance=ExtResource("5_f5jgv")]
+visible = false
+
+[node name="bevel-hq-brick-2x22" parent="." instance=ExtResource("6_qbotr")]
+visible = false
+
+[node name="bevel-hq-brick-2x42" parent="." instance=ExtResource("7_q7ivf")]
+visible = false
+
+[node name="bevel-hq-brick-2x62" parent="." instance=ExtResource("8_rb22w")]
+visible = false
+
+[node name="bevel-hq-brick-2x82" parent="." instance=ExtResource("9_7ux0y")]
+visible = false
