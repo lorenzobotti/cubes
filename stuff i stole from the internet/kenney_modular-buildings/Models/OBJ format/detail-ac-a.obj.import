@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://baqq2odqtlsy7"
+path="res://.godot/imported/detail-ac-a.obj-b950ce359c4b33ea5cc685e8b80fb520.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail-ac-a.obj-b950ce359c4b33ea5cc685e8b80fb520.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_modular-buildings/Models/OBJ format/detail-ac-a.obj"
+dest_files=["res://.godot/imported/detail-ac-a.obj-b950ce359c4b33ea5cc685e8b80fb520.mesh", "res://.godot/imported/detail-ac-a.obj-b950ce359c4b33ea5cc685e8b80fb520.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://crrp8x1wwa0rw"
+path="res://.godot/imported/building-door-window-narrow.obj-40fb78d400d3603d31d076cdfc186392.mesh"
+
+[deps]
+
+files=["res://.godot/imported/building-door-window-narrow.obj-40fb78d400d3603d31d076cdfc186392.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_modular-buildings/Models/OBJ format/building-door-window-narrow.obj"
+dest_files=["res://.godot/imported/building-door-window-narrow.obj-40fb78d400d3603d31d076cdfc186392.mesh", "res://.godot/imported/building-door-window-narrow.obj-40fb78d400d3603d31d076cdfc186392.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

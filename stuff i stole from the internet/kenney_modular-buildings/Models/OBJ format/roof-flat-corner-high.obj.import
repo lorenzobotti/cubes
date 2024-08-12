@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3tycka3lctoo"
+path="res://.godot/imported/roof-flat-corner-high.obj-930231179d053d3e6530d29b5a904c8e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roof-flat-corner-high.obj-930231179d053d3e6530d29b5a904c8e.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_modular-buildings/Models/OBJ format/roof-flat-corner-high.obj"
+dest_files=["res://.godot/imported/roof-flat-corner-high.obj-930231179d053d3e6530d29b5a904c8e.mesh", "res://.godot/imported/roof-flat-corner-high.obj-930231179d053d3e6530d29b5a904c8e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

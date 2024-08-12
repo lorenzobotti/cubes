@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cmhqa2pubwxgu"
+path="res://.godot/imported/roof-flat-awning-c.obj-309a4e1b3e8212bd90b6226cd8fa43f7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roof-flat-awning-c.obj-309a4e1b3e8212bd90b6226cd8fa43f7.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_modular-buildings/Models/OBJ format/roof-flat-awning-c.obj"
+dest_files=["res://.godot/imported/roof-flat-awning-c.obj-309a4e1b3e8212bd90b6226cd8fa43f7.mesh", "res://.godot/imported/roof-flat-awning-c.obj-309a4e1b3e8212bd90b6226cd8fa43f7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

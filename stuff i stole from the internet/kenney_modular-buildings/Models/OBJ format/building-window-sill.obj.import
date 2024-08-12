@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cn52wca54ibqt"
+path="res://.godot/imported/building-window-sill.obj-1468c68f5cd19c49e84ee1251e2f8cce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/building-window-sill.obj-1468c68f5cd19c49e84ee1251e2f8cce.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_modular-buildings/Models/OBJ format/building-window-sill.obj"
+dest_files=["res://.godot/imported/building-window-sill.obj-1468c68f5cd19c49e84ee1251e2f8cce.mesh", "res://.godot/imported/building-window-sill.obj-1468c68f5cd19c49e84ee1251e2f8cce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
