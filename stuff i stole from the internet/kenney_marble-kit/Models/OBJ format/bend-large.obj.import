@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ciuod2h00401d"
+path="res://.godot/imported/bend-large.obj-c4387fb0c7acd998d0165671dcbf4b0f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bend-large.obj-c4387fb0c7acd998d0165671dcbf4b0f.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_marble-kit/Models/OBJ format/bend-large.obj"
+dest_files=["res://.godot/imported/bend-large.obj-c4387fb0c7acd998d0165671dcbf4b0f.mesh", "res://.godot/imported/bend-large.obj-c4387fb0c7acd998d0165671dcbf4b0f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

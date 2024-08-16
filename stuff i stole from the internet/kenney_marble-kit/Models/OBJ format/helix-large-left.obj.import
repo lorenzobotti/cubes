@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://casrynvhhqtgy"
+path="res://.godot/imported/helix-large-left.obj-8b312307eae9494888869dddeb877f86.mesh"
+
+[deps]
+
+files=["res://.godot/imported/helix-large-left.obj-8b312307eae9494888869dddeb877f86.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_marble-kit/Models/OBJ format/helix-large-left.obj"
+dest_files=["res://.godot/imported/helix-large-left.obj-8b312307eae9494888869dddeb877f86.mesh", "res://.godot/imported/helix-large-left.obj-8b312307eae9494888869dddeb877f86.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

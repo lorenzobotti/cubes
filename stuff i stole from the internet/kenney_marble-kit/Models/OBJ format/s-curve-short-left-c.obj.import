@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://caa21c3wjahaw"
+path="res://.godot/imported/s-curve-short-left-c.obj-23d2603657a0e0aca5846cf2a5f07b41.mesh"
+
+[deps]
+
+files=["res://.godot/imported/s-curve-short-left-c.obj-23d2603657a0e0aca5846cf2a5f07b41.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_marble-kit/Models/OBJ format/s-curve-short-left-c.obj"
+dest_files=["res://.godot/imported/s-curve-short-left-c.obj-23d2603657a0e0aca5846cf2a5f07b41.mesh", "res://.godot/imported/s-curve-short-left-c.obj-23d2603657a0e0aca5846cf2a5f07b41.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

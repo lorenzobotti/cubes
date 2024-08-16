@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://doe7o27esijpl"
+path="res://.godot/imported/curve-wide-solid-medium.obj-29bc1eb42eeb0aa7a49922d3d05ff4c6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/curve-wide-solid-medium.obj-29bc1eb42eeb0aa7a49922d3d05ff4c6.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_marble-kit/Models/OBJ format/curve-wide-solid-medium.obj"
+dest_files=["res://.godot/imported/curve-wide-solid-medium.obj-29bc1eb42eeb0aa7a49922d3d05ff4c6.mesh", "res://.godot/imported/curve-wide-solid-medium.obj-29bc1eb42eeb0aa7a49922d3d05ff4c6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

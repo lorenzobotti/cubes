@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://da0lvfrnpxcjc"
+path="res://.godot/imported/split-double-solid.obj-c8671b699ffe00f61101fdb51d3c0e9e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/split-double-solid.obj-c8671b699ffe00f61101fdb51d3c0e9e.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_marble-kit/Models/OBJ format/split-double-solid.obj"
+dest_files=["res://.godot/imported/split-double-solid.obj-c8671b699ffe00f61101fdb51d3c0e9e.mesh", "res://.godot/imported/split-double-solid.obj-c8671b699ffe00f61101fdb51d3c0e9e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

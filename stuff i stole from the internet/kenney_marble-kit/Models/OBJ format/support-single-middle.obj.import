@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b16s2w57gg33m"
+path="res://.godot/imported/support-single-middle.obj-4cd15d30913b3aea96250def8fc59e3a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/support-single-middle.obj-4cd15d30913b3aea96250def8fc59e3a.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_marble-kit/Models/OBJ format/support-single-middle.obj"
+dest_files=["res://.godot/imported/support-single-middle.obj-4cd15d30913b3aea96250def8fc59e3a.mesh", "res://.godot/imported/support-single-middle.obj-4cd15d30913b3aea96250def8fc59e3a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

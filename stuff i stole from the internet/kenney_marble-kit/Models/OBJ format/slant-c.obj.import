@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b45o2ilafv46q"
+path="res://.godot/imported/slant-c.obj-0635437c5ed8e24651ac4334cc507820.mesh"
+
+[deps]
+
+files=["res://.godot/imported/slant-c.obj-0635437c5ed8e24651ac4334cc507820.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_marble-kit/Models/OBJ format/slant-c.obj"
+dest_files=["res://.godot/imported/slant-c.obj-0635437c5ed8e24651ac4334cc507820.mesh", "res://.godot/imported/slant-c.obj-0635437c5ed8e24651ac4334cc507820.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

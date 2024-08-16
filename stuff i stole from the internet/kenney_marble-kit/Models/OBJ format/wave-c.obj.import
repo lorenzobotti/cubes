@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://crx3pmktpddps"
+path="res://.godot/imported/wave-c.obj-49a3ff79104312c302e96a85547cf2bc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wave-c.obj-49a3ff79104312c302e96a85547cf2bc.mesh"]
+
+source_file="res://stuff i stole from the internet/kenney_marble-kit/Models/OBJ format/wave-c.obj"
+dest_files=["res://.godot/imported/wave-c.obj-49a3ff79104312c302e96a85547cf2bc.mesh", "res://.godot/imported/wave-c.obj-49a3ff79104312c302e96a85547cf2bc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
