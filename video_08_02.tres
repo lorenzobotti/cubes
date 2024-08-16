@@ -1,0 +1,77 @@
+[gd_resource type="VisualShader" load_steps=7 format=3 uid="uid://ic41e8wb0eiq"]
+
+[sub_resource type="VisualShaderNodeInput" id="VisualShaderNodeInput_7yen2"]
+output_port_for_preview = 0
+input_name = "normal"
+
+[sub_resource type="VisualShaderNodeInput" id="VisualShaderNodeInput_cy4v4"]
+output_port_for_preview = 0
+input_name = "eye_offset"
+
+[sub_resource type="VisualShaderNodeInput" id="VisualShaderNodeInput_pwjnm"]
+output_port_for_preview = 0
+input_name = "tangent"
+
+[sub_resource type="VisualShaderNodeVectorOp" id="VisualShaderNodeVectorOp_ijq3q"]
+operator = 6
+
+[sub_resource type="VisualShaderNodeFloatOp" id="VisualShaderNodeFloatOp_i1joe"]
+operator = 3
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="VisualShaderNodeFloatConstant_cx2hr"]
+constant = 0.1
+
+[resource]
+code = "shader_type spatial;
+render_mode blend_mix, depth_draw_opaque, cull_back, diffuse_lambert, specular_schlick_ggx;
+
+
+
+
+void fragment() {
+// Input:2
+	vec3 n_out2p0 = NORMAL;
+
+
+// Input:4
+	vec3 n_out4p0 = TANGENT;
+
+
+// VectorOp:5
+	vec3 n_out5p0 = max(n_out2p0, n_out4p0);
+
+
+// FloatConstant:7
+	float n_out7p0 = 0.100000;
+
+
+// FloatOp:6
+	float n_out6p0 = n_out5p0.x / n_out7p0;
+
+
+// Input:3
+	vec3 n_out3p0 = EYE_OFFSET;
+
+
+// Output:0
+	ALBEDO = n_out2p0;
+	ALPHA = n_out6p0;
+	METALLIC = n_out3p0.x;
+
+
+}
+"
+nodes/fragment/0/position = Vector2(1220, 40)
+nodes/fragment/2/node = SubResource("VisualShaderNodeInput_7yen2")
+nodes/fragment/2/position = Vector2(-760, -420)
+nodes/fragment/3/node = SubResource("VisualShaderNodeInput_cy4v4")
+nodes/fragment/3/position = Vector2(-620, 740)
+nodes/fragment/4/node = SubResource("VisualShaderNodeInput_pwjnm")
+nodes/fragment/4/position = Vector2(-760, 160)
+nodes/fragment/5/node = SubResource("VisualShaderNodeVectorOp_ijq3q")
+nodes/fragment/5/position = Vector2(40, -40)
+nodes/fragment/6/node = SubResource("VisualShaderNodeFloatOp_i1joe")
+nodes/fragment/6/position = Vector2(520, 100)
+nodes/fragment/7/node = SubResource("VisualShaderNodeFloatConstant_cx2hr")
+nodes/fragment/7/position = Vector2(60, 360)
+nodes/fragment/connections = PackedInt32Array(2, 0, 0, 0, 2, 0, 5, 0, 4, 0, 5, 1, 3, 0, 0, 2, 5, 0, 6, 0, 7, 0, 6, 1, 6, 0, 0, 1)

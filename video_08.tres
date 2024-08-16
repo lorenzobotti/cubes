@@ -1,0 +1,62 @@
+[gd_resource type="VisualShader" load_steps=5 format=3 uid="uid://d3m8ude4fc5n4"]
+
+[sub_resource type="VisualShaderNodeInput" id="VisualShaderNodeInput_taiw7"]
+output_port_for_preview = 0
+input_name = "uv"
+
+[sub_resource type="VisualShaderNodeRandomRange" id="VisualShaderNodeRandomRange_g3drq"]
+default_input_values = [0, Vector3(1, 1, 1), 1, 0.0, 2, 0.1]
+
+[sub_resource type="VisualShaderNodeColorOp" id="VisualShaderNodeColorOp_xuudg"]
+operator = 1
+
+[sub_resource type="VisualShaderNodeTransformConstant" id="VisualShaderNodeTransformConstant_i3mes"]
+
+[resource]
+code = "shader_type canvas_item;
+render_mode blend_mix;
+
+
+
+
+
+// 3D Noise with friendly permission by Inigo Quilez
+vec3 hash_noise_range( vec3 p ) {
+	p *= mat3(vec3(127.1, 311.7, -53.7), vec3(269.5, 183.3, 77.1), vec3(-301.7, 27.3, 215.3));
+	return 2.0 * fract(fract(p)*4375.55) -1.;
+}
+
+
+void fragment() {
+// Input:2
+	vec2 n_out2p0 = UV;
+
+
+// RandomRange:3
+	float n_in3p1 = 0.00000;
+	float n_in3p2 = 0.10000;
+	float n_out3p0 = mix(n_in3p1, n_in3p2, hash_noise_range(vec3(n_out2p0, 0.0)).x);
+
+
+// ColorOp:4
+	vec3 n_out4p0 = abs(vec3(n_out2p0, 0.0) - vec3(n_out3p0));
+
+
+// Output:0
+	COLOR.rgb = n_out4p0;
+
+
+}
+"
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(720, 160)
+nodes/fragment/2/node = SubResource("VisualShaderNodeInput_taiw7")
+nodes/fragment/2/position = Vector2(-940, 160)
+nodes/fragment/3/node = SubResource("VisualShaderNodeRandomRange_g3drq")
+nodes/fragment/3/position = Vector2(-200, 340)
+nodes/fragment/4/node = SubResource("VisualShaderNodeColorOp_xuudg")
+nodes/fragment/4/position = Vector2(260, 100)
+nodes/fragment/5/node = SubResource("VisualShaderNodeTransformConstant_i3mes")
+nodes/fragment/5/position = Vector2(-380, 800)
+nodes/fragment/connections = PackedInt32Array(3, 0, 4, 1, 2, 0, 4, 0, 2, 0, 3, 0, 4, 0, 0, 0)

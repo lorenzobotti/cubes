@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://cg2pp2uj5tcp6"]
+
+[ext_resource type="Script" path="res://video_09_script.gd" id="1_p15xb"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_w8837"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_wiusn"]
+
+[node name="Video09" type="Node3D"]
+script = ExtResource("1_p15xb")
+
+[node name="ArrMesh" type="MeshInstance3D" parent="."]
+visible = false
+mesh = SubResource("ArrayMesh_w8837")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.779539, 0, 0)
+mesh = SubResource("BoxMesh_wiusn")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.623361, 0.781934, 0, -0.781934, 0.623361, 0, 1.5695, 1.67357)

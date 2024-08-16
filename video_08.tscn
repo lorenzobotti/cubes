@@ -1,0 +1,53 @@
+[gd_scene load_steps=9 format=3 uid="uid://pcy4x30x5k0l"]
+
+[ext_resource type="Script" path="res://video_08_script.gd" id="1_hygln"]
+[ext_resource type="Shader" uid="uid://ic41e8wb0eiq" path="res://video_08_02.tres" id="1_vw7v5"]
+[ext_resource type="Shader" uid="uid://blyiwq67rdh5t" path="res://video_08_plane.tres" id="2_lvjsq"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wxaae"]
+render_priority = 0
+shader = ExtResource("1_vw7v5")
+
+[sub_resource type="TorusMesh" id="TorusMesh_kvrd5"]
+material = SubResource("ShaderMaterial_wxaae")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8joh1"]
+render_priority = 0
+shader = ExtResource("2_lvjsq")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_qlcj8"]
+material = SubResource("ShaderMaterial_8joh1")
+size = Vector2(20, 20)
+
+[sub_resource type="Environment" id="Environment_mtmi0"]
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_enabled = true
+glow_enabled = true
+
+[node name="Video08" type="Node3D"]
+script = ExtResource("1_hygln")
+
+[node name="Donut" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.53068, 0)
+mesh = SubResource("TorusMesh_kvrd5")
+
+[node name="Plane" type="MeshInstance3D" parent="."]
+visible = false
+mesh = SubResource("PlaneMesh_qlcj8")
+
+[node name="Plane2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.022129, -0.999755, 0, 0.999755, 0.022129, 0, 0, -6.93661)
+visible = false
+mesh = SubResource("PlaneMesh_qlcj8")
+
+[node name="Plane3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0560655, -0.998183, -0.0220942, 0, 0.022129, -0.999755, 0.998427, -0.0560518, -0.00124067, 9.39502, 0, -0.0242829)
+visible = false
+mesh = SubResource("PlaneMesh_qlcj8")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_mtmi0")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.707085, 0.442599, -0.551486, -0.0477857, 0.80802, 0.587214, 0.705512, -0.388857, 0.592489, -4.32179, 9.13699, 3.97894)

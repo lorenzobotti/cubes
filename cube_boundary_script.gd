@@ -14,4 +14,5 @@ func _process(delta):
 	pass
 
 func create_collision():
+	pass
 	
