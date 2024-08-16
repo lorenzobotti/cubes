@@ -1,0 +1,61 @@
+[gd_scene load_steps=10 format=3 uid="uid://cyufdeytkcoj8"]
+
+[ext_resource type="Texture2D" uid="uid://cyyhb8n37mjwh" path="res://stuff i stole from the internet/kenney_prototype-textures/PNG/Orange/texture_10.png" id="1_8xxug"]
+[ext_resource type="Texture2D" uid="uid://3hvrid6l5wpw" path="res://stuff i stole from the internet/kenney_prototype-textures/PNG/Red/texture_11.png" id="2_s8dgu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ly7nw"]
+albedo_texture = ExtResource("1_8xxug")
+uv1_scale = Vector3(3, 3, 3)
+
+[sub_resource type="BoxMesh" id="BoxMesh_7t6hm"]
+material = SubResource("StandardMaterial3D_ly7nw")
+flip_faces = true
+size = Vector3(10, 10, 10)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_wptwj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mjks6"]
+albedo_texture = ExtResource("2_s8dgu")
+uv1_scale = Vector3(10, 10, 10)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_owtmm"]
+material = SubResource("StandardMaterial3D_mjks6")
+
+[sub_resource type="Environment" id="Environment_7cwog"]
+tonemap_mode = 2
+ssr_enabled = true
+ssao_enabled = true
+ssil_enabled = true
+glow_enabled = true
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.01
+adjustment_enabled = true
+adjustment_brightness = 1.07
+adjustment_saturation = 1.11
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_d8b62"]
+exposure_multiplier = 1.1
+auto_exposure_enabled = true
+dof_blur_far_enabled = true
+dof_blur_far_distance = 15.83
+dof_blur_far_transition = 4499.05
+
+[node name="Video07" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_7t6hm")
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("CylinderShape3D_wptwj")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D"]
+mesh = SubResource("CylinderMesh_owtmm")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 10.2046)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_7cwog")
+camera_attributes = SubResource("CameraAttributesPractical_d8b62")

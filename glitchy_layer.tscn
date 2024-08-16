@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=3 uid="uid://yl4rsji08fqy"]
+
+[ext_resource type="Script" path="res://glitchy_layer_script.gd" id="1_tfak5"]
+
+[sub_resource type="SystemFont" id="SystemFont_rfom8"]
+font_names = PackedStringArray("Helvetica Neue")
+subpixel_positioning = 0
+
+[sub_resource type="LabelSettings" id="LabelSettings_rtkv8"]
+font = SubResource("SystemFont_rfom8")
+font_size = 50
+font_color = Color(1, 0.290196, 0.384314, 1)
+
+[node name="GlitchyLayer" type="CanvasLayer"]
+script = ExtResource("1_tfak5")
+
+[node name="Line2D" type="Line2D" parent="."]
+visible = false
+points = PackedVector2Array(11, 7, 833, 1416)
+width = 20.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="."]
+visible = false
+offset_right = 563.0
+offset_bottom = 245.0
+text = "god of weather, henry
+knows
+snow globes don't shake
+on their own"
+label_settings = SubResource("LabelSettings_rtkv8")

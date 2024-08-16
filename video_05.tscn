@@ -1,14 +1,21 @@
-[gd_scene load_steps=6 format=3 uid="uid://o4ykthgol3fk"]
+[gd_scene load_steps=11 format=3 uid="uid://o4ykthgol3fk"]
 
-[ext_resource type="PackedScene" uid="uid://bo1lm1uykf66m" path="res://proced_building.tscn" id="1_om0kq"]
 [ext_resource type="Script" path="res://video_05_script.gd" id="1_raqgn"]
+[ext_resource type="PackedScene" uid="uid://bk2rbcklho6f" path="res://noise_tweener.tscn" id="2_qqmkk"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kkvkq"]
-albedo_color = Color(0.995712, 0.801558, 0.553615, 1)
+albedo_color = Color(0.996078, 0.831373, 0.552941, 1)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_h4ioh"]
 material = SubResource("StandardMaterial3D_kkvkq")
-size = Vector2(10, 10)
+size = Vector2(30, 30)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f86gq"]
+albedo_color = Color(0.724575, 0.679574, 0.888446, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_2cr0m"]
+material = SubResource("StandardMaterial3D_f86gq")
+size = Vector2(30, 30)
 
 [sub_resource type="Environment" id="Environment_j57l8"]
 ssr_enabled = true
@@ -18,50 +25,100 @@ sdfgi_enabled = true
 glow_enabled = true
 fog_enabled = true
 
+[sub_resource type="Animation" id="Animation_ia2ta"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(2.32199, 4.96863, 2.56933)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-0.542797, 0.915635, 5.83291e-08)]
+}
+
+[sub_resource type="Animation" id="Animation_5opg2"]
+resource_name = "camera_pan"
+length = 20.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.3, 18.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(2.32199, 4.96863, 2.56933), Vector3(-4.66928, 4.96863, -3.00306)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.3, 19.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.542797, 0.915635, 5.83291e-08), Vector3(-0.542797, 0.102974, 3.48787e-16)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_u3ekp"]
+_data = {
+"RESET": SubResource("Animation_ia2ta"),
+"camera_pan": SubResource("Animation_5opg2")
+}
+
 [node name="Video05" type="Node3D"]
+transform = Transform3D(0.960726, 0, 0, 0, 0.960726, 0, 0, 0, 0.960726, 0, 0, 0)
 script = ExtResource("1_raqgn")
-
-[node name="ProcedBuilding" parent="." instance=ExtResource("1_om0kq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.87844, 0, 0)
-
-[node name="ProcedBuilding2" parent="." instance=ExtResource("1_om0kq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44494, 0, 0)
-
-[node name="ProcedBuilding3" parent="." instance=ExtResource("1_om0kq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.17951, 0, 0)
-
-[node name="ProcedBuilding4" parent="." instance=ExtResource("1_om0kq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.87844, 0, -2.19265)
-
-[node name="ProcedBuilding5" parent="." instance=ExtResource("1_om0kq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.44494, 0, -2.19265)
-
-[node name="ProcedBuilding6" parent="." instance=ExtResource("1_om0kq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.17951, 0, -2.19265)
-
-[node name="ProcedBuilding7" parent="." instance=ExtResource("1_om0kq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.07906, 0, 0)
-
-[node name="ProcedBuilding8" parent="." instance=ExtResource("1_om0kq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3445, 0, 0)
-
-[node name="ProcedBuilding9" parent="." instance=ExtResource("1_om0kq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.07906, 0, -2.19265)
-
-[node name="ProcedBuilding10" parent="." instance=ExtResource("1_om0kq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3445, 0, -2.19265)
+rows = 12
+lanes = 12
+diagonal_rows_height = 2.0
+noise_scale = 10000.0
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(0.834281, -0.365437, 0.412834, 5.31168e-09, 0.748782, 0.662816, -0.55134, -0.552975, 0.624695, 2.65267, 4.44086, 3.69831)
-fov = 73.4
+transform = Transform3D(0.609287, -0.409585, 0.678977, 4.99453e-08, 0.856267, 0.516533, -0.792949, -0.314717, 0.521713, 2.32199, 4.96863, 2.56933)
+fov = 77.0
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(3.47913, 0, 0, 0, 3.47913, 0, 0, 0, 3.47913, 0, 0, 0)
 mesh = SubResource("PlaneMesh_h4ioh")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.81895, 0, -4.29775e-23, -4.29775e-23, -1.2322e-07, -2.81895, 0, 2.81895, -1.2322e-07, 0.33, 4.18, -25.06)
+mesh = SubResource("PlaneMesh_2cr0m")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_j57l8")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.87305, 0.152207, -0.463268, -1.60473e-16, 0.950037, 0.312136, 0.487631, -0.27251, 0.82943, 0, 1.51289, 2.41004)
+transform = Transform3D(0.801052, -0.186843, 0.568688, 3.78613e-09, 0.950037, 0.312136, -0.598595, -0.250037, 0.761029, 0, 1.51289, 2.41004)
 light_color = Color(1, 0.861843, 0.99294, 1)
 shadow_enabled = true
+shadow_blur = 1.472
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_u3ekp")
+}
+
+[node name="NoiseTweener" parent="." instance=ExtResource("2_qqmkk")]
+map_to = NodePath("../MeshInstance3D2")

@@ -4,7 +4,7 @@ var column_scene = preload("res://cube_column.tscn")
 
 @export var linear_speed = 16.0
 @export var rotation_speed = 0
-@export var steps = 2.0
+@export var steps = 7.0
 @export var side_dist = 5.0
 
 @export var queue_capacity = 500

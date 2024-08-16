@@ -1,0 +1,41 @@
+[gd_scene load_steps=9 format=3 uid="uid://04a5c6jxrg1y"]
+
+[ext_resource type="Script" path="res://video_06_script.gd" id="1_6ll0r"]
+[ext_resource type="Texture2D" uid="uid://disaqvd41hqiv" path="res://stuff i stole from the internet/kenney_prototype-textures/PNG/Orange/texture_01.png" id="1_pens2"]
+[ext_resource type="Texture2D" uid="uid://dc2vrenbv7tq" path="res://stuff i stole from the internet/kenney_prototype-textures/PNG/Green/texture_09.png" id="3_pchrm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rxvco"]
+albedo_texture = ExtResource("1_pens2")
+uv1_scale = Vector3(8, 8, 8)
+
+[sub_resource type="BoxMesh" id="BoxMesh_f83pr"]
+material = SubResource("StandardMaterial3D_rxvco")
+flip_faces = true
+size = Vector3(10, 10, 10)
+
+[sub_resource type="SystemFont" id="SystemFont_1c4jh"]
+font_names = PackedStringArray("Helvetica Neue")
+font_weight = 700
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6i1ck"]
+albedo_texture = ExtResource("3_pchrm")
+uv1_scale = Vector3(3.92, 3.92, 3.92)
+
+[sub_resource type="TextMesh" id="TextMesh_y3php"]
+material = SubResource("StandardMaterial3D_6i1ck")
+text = "signor stocazzo ciao"
+font = SubResource("SystemFont_1c4jh")
+font_size = 60
+
+[node name="Video06" type="Node3D"]
+script = ExtResource("1_6ll0r")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_f83pr")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6803, 0)
+mesh = SubResource("TextMesh_y3php")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.759396, 0, -0.650628, 0, 1, 0, 0.650628, 0, 0.759396, -3.8285, 1.90274, 5.04597)

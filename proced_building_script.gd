@@ -76,7 +76,8 @@ func dbg_name():
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	ToolCleaner.purge_auto_nodes(self)
-	# new_floors()
+	if Engine.is_editor_hint():
+		new_floors()
 
 func new_floors():
 	dbg_name()

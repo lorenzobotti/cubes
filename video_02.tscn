@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://wp44dorfwdot"]
+[gd_scene load_steps=3 format=3 uid="uid://wp44dorfwdot"]
 
 [ext_resource type="Script" path="res://video_02_script.gd" id="1_ncmbd"]
+[ext_resource type="PackedScene" uid="uid://yl4rsji08fqy" path="res://glitchy_layer.tscn" id="2_31lmq"]
 
 [node name="Video02" type="Node3D"]
 transform = Transform3D(0.979166, -0.203061, 0, 0.203061, 0.979166, 0, 0, 0, 1, 0, 0, 0)
@@ -8,3 +9,5 @@ script = ExtResource("1_ncmbd")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 fov = 30.0
+
+[node name="GlitchyLayer" parent="." instance=ExtResource("2_31lmq")]

@@ -14,10 +14,12 @@ func _ready():
 	random_ticker.start_timer()
 
 func next_viewp():
-	if not enabled:
-		return
-	
+	return 
 	var vp = get_viewport()
+	
+	if not enabled:
+		vp.debug_draw = 0
+	
 	vp.debug_draw = (vp.debug_draw + 1 ) % 4
 
 func _on_random_ticker_timeout():

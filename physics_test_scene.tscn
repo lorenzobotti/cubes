@@ -1,0 +1,119 @@
+[gd_scene load_steps=9 format=3 uid="uid://dsrsorfllbqk1"]
+
+[ext_resource type="Script" path="res://physics_test_scene_script.gd" id="1_omvb5"]
+[ext_resource type="PackedScene" uid="uid://bmyw325ce7dpp" path="res://stuff i stole from the internet/kenney_marble-kit/Models/GLB format/bump-solid-d.glb" id="2_07175"]
+[ext_resource type="PackedScene" uid="uid://bfytg1et6x6n5" path="res://stuff i stole from the internet/kenney_marble-kit/Models/GLB format/banner-double-high.glb" id="3_bgnxm"]
+[ext_resource type="PackedScene" uid="uid://bwq5jgautn8h6" path="res://stuff i stole from the internet/kenney_marble-kit/Models/GLB format/banner.glb" id="4_2hhef"]
+[ext_resource type="PackedScene" uid="uid://u08j381mrs7u" path="res://stuff i stole from the internet/kenney_marble-kit/Models/GLB format/bump-c.glb" id="5_b6iiq"]
+[ext_resource type="PackedScene" uid="uid://bfu8cge8xkq0s" path="res://stuff i stole from the internet/kenney_marble-kit/Models/GLB format/curve.glb" id="6_ugqhl"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_cugoa"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_fw78c"]
+
+[node name="PhysicsTestScene" type="Node3D"]
+script = ExtResource("1_omvb5")
+
+[node name="bump-solid-d2" parent="." instance=ExtResource("2_07175")]
+
+[node name="banner-double-high2" parent="." instance=ExtResource("3_bgnxm")]
+
+[node name="banner2" parent="." instance=ExtResource("4_2hhef")]
+
+[node name="bump-c2" parent="." instance=ExtResource("5_b6iiq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.00714)
+
+[node name="curve2" parent="." instance=ExtResource("6_ugqhl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.500719, 0, 7.01516)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.960338, 0.140405, -0.240911, 2.82337e-18, 0.863976, 0.503533, 0.27884, -0.483561, 0.829709, -2.32167, 5.03575, 9.76085)
+fov = 41.1
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.38553, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D"]
+mesh = SubResource("SphereMesh_cugoa")
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("SphereShape3D_fw78c")
+metadata/_edit_lock_ = true
+
+[node name="RigidBody3D2" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.93129, 7.38553, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2"]
+mesh = SubResource("SphereMesh_cugoa")
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D2"]
+shape = SubResource("SphereShape3D_fw78c")
+metadata/_edit_lock_ = true
+
+[node name="RigidBody3D3" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.38553, 1.9534)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D3"]
+mesh = SubResource("SphereMesh_cugoa")
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D3"]
+shape = SubResource("SphereShape3D_fw78c")
+metadata/_edit_lock_ = true
+
+[node name="RigidBody3D4" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.93129, 7.38553, 1.9534)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D4"]
+mesh = SubResource("SphereMesh_cugoa")
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D4"]
+shape = SubResource("SphereShape3D_fw78c")
+metadata/_edit_lock_ = true
+
+[node name="RigidBody3D5" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.306551, 9.24034, 0.381781)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D5"]
+mesh = SubResource("SphereMesh_cugoa")
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D5"]
+shape = SubResource("SphereShape3D_fw78c")
+metadata/_edit_lock_ = true
+
+[node name="RigidBody3D6" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.62474, 9.24034, 0.381781)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D6"]
+mesh = SubResource("SphereMesh_cugoa")
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D6"]
+shape = SubResource("SphereShape3D_fw78c")
+metadata/_edit_lock_ = true
+
+[node name="RigidBody3D7" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.306551, 9.24034, 2.33518)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D7"]
+mesh = SubResource("SphereMesh_cugoa")
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D7"]
+shape = SubResource("SphereShape3D_fw78c")
+metadata/_edit_lock_ = true
+
+[node name="RigidBody3D8" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.62474, 9.24034, 2.33518)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D8"]
+mesh = SubResource("SphereMesh_cugoa")
+metadata/_edit_lock_ = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D8"]
+shape = SubResource("SphereShape3D_fw78c")
+metadata/_edit_lock_ = true
